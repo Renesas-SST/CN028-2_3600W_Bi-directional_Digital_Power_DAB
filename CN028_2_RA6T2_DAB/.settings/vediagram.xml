@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<Elements>
+<DIAGRAM>
+	<VEModelDiagram.BackgroundGridLinesOption>false</VEModelDiagram.BackgroundGridLinesOption>
+	<VEModelDiagram.BackgroundImageOption></VEModelDiagram.BackgroundImageOption>
+	<VEModelDiagram.BackgroundImageStretchOption>true</VEModelDiagram.BackgroundImageStretchOption>
+</DIAGRAM>
+<PUSHBUTTON>
+	<VEModelChildElement.LocationX>236</VEModelChildElement.LocationX>
+	<VEModelChildElement.LocationY>91</VEModelChildElement.LocationY>
+	<VEModelChildElement.SizeCX>100</VEModelChildElement.SizeCX>
+	<VEModelChildElement.SizeCY>60</VEModelChildElement.SizeCY>
+	<VEModelChildElement.expressionTitleVisible>true</VEModelChildElement.expressionTitleVisible>
+	<VEModelChildElement.minRange>0.0</VEModelChildElement.minRange>
+	<VEModelChildElement.maxRange>100.0</VEModelChildElement.maxRange>
+	<VEModelChildElement.expressionName>bt</VEModelChildElement.expressionName>
+	<VEModelChildElement.expressionUpdatesDisabled>false</VEModelChildElement.expressionUpdatesDisabled>
+	<VEModelChildElement.foregroundColor>15790320</VEModelChildElement.foregroundColor>
+	<VEModelChildElement.backgroundColor>0</VEModelChildElement.backgroundColor>
+	<VEModelChildElement.numberFormat>Natural</VEModelChildElement.numberFormat>
+	<VEModelPushButton.buttonName>+</VEModelPushButton.buttonName>
+	<VEModelPushButton.injectionValue>1</VEModelPushButton.injectionValue>
+</PUSHBUTTON>
+<PUSHBUTTON>
+	<VEModelChildElement.LocationX>240</VEModelChildElement.LocationX>
+	<VEModelChildElement.LocationY>182</VEModelChildElement.LocationY>
+	<VEModelChildElement.SizeCX>100</VEModelChildElement.SizeCX>
+	<VEModelChildElement.SizeCY>60</VEModelChildElement.SizeCY>
+	<VEModelChildElement.expressionTitleVisible>true</VEModelChildElement.expressionTitleVisible>
+	<VEModelChildElement.minRange>0.0</VEModelChildElement.minRange>
+	<VEModelChildElement.maxRange>100.0</VEModelChildElement.maxRange>
+	<VEModelChildElement.expressionName>bt2</VEModelChildElement.expressionName>
+	<VEModelChildElement.expressionUpdatesDisabled>false</VEModelChildElement.expressionUpdatesDisabled>
+	<VEModelChildElement.foregroundColor>15790320</VEModelChildElement.foregroundColor>
+	<VEModelChildElement.backgroundColor>0</VEModelChildElement.backgroundColor>
+	<VEModelChildElement.numberFormat>Natural</VEModelChildElement.numberFormat>
+	<VEModelPushButton.buttonName>-</VEModelPushButton.buttonName>
+	<VEModelPushButton.injectionValue>1</VEModelPushButton.injectionValue>
+</PUSHBUTTON>
+</Elements>

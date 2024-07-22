@@ -1,0 +1,1236 @@
+T4FE0 000:001.249   SEGGER J-Link V7.88n Log File
+T4FE0 000:001.570   DLL Compiled: Jul 26 2023 15:32:53
+T4FE0 000:001.608   Logging started @ 2024-05-13 07:19
+T4FE0 000:001.625 - 1.634ms
+T4FE0 000:001.651 JLINK_GetDLLVersion()
+T4FE0 000:001.675 - 0.034ms returns 78814
+T4FE0 000:002.749 JLINK_OpenEx(...)
+T4FE0 000:016.961   Firmware: J-Link V11 compiled Mar 14 2024 13:16:08
+T4FE0 000:017.352   Firmware: J-Link V11 compiled Mar 14 2024 13:16:08
+T4FE0 000:020.641   Hardware: V11.00
+T4FE0 000:020.689   S/N: 601012352
+T4FE0 000:020.715   OEM: SEGGER
+T4FE0 000:020.743   Feature(s): RDI, FlashBP, FlashDL, JFlash, GDB
+T4FE0 000:025.316   Bootloader: (Could not read)
+T4FE0 000:025.788   USB speed mode: High speed (480 MBit/s)
+T4FE0 000:025.825   Active J-Link Eco level: 3 (https://wiki.segger.com/J-Link_Eco)
+T4FE0 000:026.252   TELNET listener socket opened on port 19021
+T4FE0 000:026.529   WEBSRV WEBSRV_Init(): Starting webserver thread(s)
+T4FE0 000:026.755   WEBSRV Webserver running on local port 19080
+T4FE0 000:027.008   Looking for J-Link GUI Server exe at: C:\Users\a5073522\.eclipse\com.renesas.platform_1060007421\DebugComp\RA\ARM\Segger_v7.88.14\JLinkGUIServer.exe
+T4FE0 000:027.233   Looking for J-Link GUI Server exe at: \JLinkGUIServer.exe
+T4FE0 000:328.345   Failed to connect to J-Link GUI Server.
+T4FE0 000:328.434 - 325.700ms returns "O.K."
+T4FE0 000:328.701 JLINK_ExecCommand("ProjectFile=D:\Workspace\gitLab_workspace\cn028-2-digital-power-dab\CN028_2_RA6T2_DAB/CN028_2_RA6T2_DAB Debug_Flat.jlink", ...). 
+T4FE0 000:393.858 - 65.183ms returns 0x00
+T4FE0 000:394.572 JLINK_ExecCommand("device=R7FA6T2BD", ...). 
+T4FE0 000:398.064   Device "R7FA6T2BD" selected.
+T4FE0 000:399.679 - 5.095ms returns 0x00
+T4FE0 000:399.740 JLINK_ReadMem(0xE000EDF0, 0x4 Bytes, ...)
+T4FE0 000:400.751   ConfigTargetSettings() start
+T4FE0 000:400.801    J-Link Script File: Executing ConfigTargetSettings()
+T4FE0 000:401.187   Configuring FlashDLNoRMWThreshold=0x200 in order to make sure that option bytes programming is done via read-modify-write
+T4FE0 000:426.342   ConfigTargetSettings() end - Took 25.5ms
+T4FE0 000:427.758   InitTarget() start
+T4FE0 000:427.818    J-Link Script File: Executing InitTarget()
+T4FE0 000:427.842   JTAG selected. Identifying JTAG Chain...
+T4FE0 000:429.364   TotalIRLen = ?, IRPrint = 0x..FFFFFFFFFFFFFFFFFFFFFFF1
+T4FE0 000:429.873   Error: Scanning JTAG chain failed.
+T4FE0 000:429.945   InitTarget() end - Took 2.12ms
+T4FE0 000:429.982   Connect failed. Resetting via Reset pin and trying again.
+T4FE0 000:521.962   ConfigTargetSettings() start
+T4FE0 000:522.049    J-Link Script File: Executing ConfigTargetSettings()
+T4FE0 000:522.071   Configuring FlashDLNoRMWThreshold=0x200 in order to make sure that option bytes programming is done via read-modify-write
+T4FE0 000:547.288   ConfigTargetSettings() end - Took 25.2ms
+T4FE0 000:547.341   InitTarget() start
+T4FE0 000:547.369    J-Link Script File: Executing InitTarget()
+T4FE0 000:547.389   JTAG selected. Identifying JTAG Chain...
+T4FE0 000:548.840   TotalIRLen = ?, IRPrint = 0x..FFFFFFFFFFFFFFFFFFFFFFF1
+T4FE0 000:549.446   Error: Scanning JTAG chain failed.
+T4FE0 000:549.494   InitTarget() end - Took 2.12ms
+T4FE0 000:549.997 - 150.287ms returns 1
+T4FE0 000:550.158 JLINK_ReadMem(0x400E002C, 0x4 Bytes, ...)
+T4FE0 000:550.456   ConfigTargetSettings() start
+T4FE0 000:550.502    J-Link Script File: Executing ConfigTargetSettings()
+T4FE0 000:550.522   Configuring FlashDLNoRMWThreshold=0x200 in order to make sure that option bytes programming is done via read-modify-write
+T4FE0 000:575.143   ConfigTargetSettings() end - Took 24.6ms
+T4FE0 000:575.187   InitTarget() start
+T4FE0 000:575.215    J-Link Script File: Executing InitTarget()
+T4FE0 000:575.236   JTAG selected. Identifying JTAG Chain...
+T4FE0 000:576.621   TotalIRLen = ?, IRPrint = 0x..FFFFFFFFFFFFFFFFFFFFFFF1
+T4FE0 000:577.129   Error: Scanning JTAG chain failed.
+T4FE0 000:577.182   InitTarget() end - Took 1.96ms
+T4FE0 000:577.211   Connect failed. Resetting via Reset pin and trying again.
+T4FE0 000:722.059   ConfigTargetSettings() start
+T4FE0 000:722.345    J-Link Script File: Executing ConfigTargetSettings()
+T4FE0 000:722.453   Configuring FlashDLNoRMWThreshold=0x200 in order to make sure that option bytes programming is done via read-modify-write
+T4FE0 000:777.759   ConfigTargetSettings() end - Took 55.4ms
+T4FE0 000:777.818   InitTarget() start
+T4FE0 000:777.847    J-Link Script File: Executing InitTarget()
+T4FE0 000:777.870   JTAG selected. Identifying JTAG Chain...
+T4FE0 000:779.262   TotalIRLen = ?, IRPrint = 0x..FFFFFFFFFFFFFFFFFFFFFFF1
+T4FE0 000:779.904   Error: Scanning JTAG chain failed.
+T4FE0 000:779.954   InitTarget() end - Took 2.10ms
+T4FE0 000:779.985 - 229.838ms returns 1
+T4FE0 000:780.070 JLINK_ReadMem(0xE000EDF0, 0x4 Bytes, ...)
+T4FE0 000:780.421   ConfigTargetSettings() start
+T4FE0 000:780.471    J-Link Script File: Executing ConfigTargetSettings()
+T4FE0 000:780.495   Configuring FlashDLNoRMWThreshold=0x200 in order to make sure that option bytes programming is done via read-modify-write
+T4FE0 000:803.375   ConfigTargetSettings() end - Took 22.9ms
+T4FE0 000:803.417   InitTarget() start
+T4FE0 000:803.443    J-Link Script File: Executing InitTarget()
+T4FE0 000:803.464   JTAG selected. Identifying JTAG Chain...
+T4FE0 000:804.839   TotalIRLen = ?, IRPrint = 0x..FFFFFFFFFFFFFFFFFFFFFFF1
+T4FE0 000:805.399   Error: Scanning JTAG chain failed.
+T4FE0 000:805.434   InitTarget() end - Took 1.99ms
+T4FE0 000:805.466   Connect failed. Resetting via Reset pin and trying again.
+T4FE0 000:922.160   ConfigTargetSettings() start
+T4FE0 000:922.332    J-Link Script File: Executing ConfigTargetSettings()
+T4FE0 000:922.384   Configuring FlashDLNoRMWThreshold=0x200 in order to make sure that option bytes programming is done via read-modify-write
+T4FE0 000:967.251   ConfigTargetSettings() end - Took 44.9ms
+T4FE0 000:967.301   InitTarget() start
+T4FE0 000:967.345    J-Link Script File: Executing InitTarget()
+T4FE0 000:967.368   JTAG selected. Identifying JTAG Chain...
+T4FE0 000:968.720   TotalIRLen = ?, IRPrint = 0x..FFFFFFFFFFFFFFFFFFFFFFF1
+T4FE0 000:969.323   Error: Scanning JTAG chain failed.
+T4FE0 000:969.388   InitTarget() end - Took 2.04ms
+T4FE0 000:969.419 - 189.359ms returns 1
+T4FE0 000:969.472 JLINK_ReadMem(0xE000EDF0, 0x4 Bytes, ...)
+T4FE0 000:969.647   ConfigTargetSettings() start
+T4FE0 000:969.691    J-Link Script File: Executing ConfigTargetSettings()
+T4FE0 000:969.717   Configuring FlashDLNoRMWThreshold=0x200 in order to make sure that option bytes programming is done via read-modify-write
+T4FE0 000:993.756   ConfigTargetSettings() end - Took 24.0ms
+T4FE0 000:993.801   InitTarget() start
+T4FE0 000:993.834    J-Link Script File: Executing InitTarget()
+T4FE0 000:993.856   JTAG selected. Identifying JTAG Chain...
+T4FE0 000:995.386   TotalIRLen = ?, IRPrint = 0x..FFFFFFFFFFFFFFFFFFFFFFF1
+T4FE0 000:996.105   Error: Scanning JTAG chain failed.
+T4FE0 000:996.156   InitTarget() end - Took 2.32ms
+T4FE0 000:996.186   Connect failed. Resetting via Reset pin and trying again.
+T4FE0 001:121.689   ConfigTargetSettings() start
+T4FE0 001:121.825    J-Link Script File: Executing ConfigTargetSettings()
+T4FE0 001:121.856   Configuring FlashDLNoRMWThreshold=0x200 in order to make sure that option bytes programming is done via read-modify-write
+T4FE0 001:149.471   ConfigTargetSettings() end - Took 27.6ms
+T4FE0 001:149.524   InitTarget() start
+T4FE0 001:149.560    J-Link Script File: Executing InitTarget()
+T4FE0 001:149.581   JTAG selected. Identifying JTAG Chain...
+T4FE0 001:151.197   TotalIRLen = ?, IRPrint = 0x..FFFFFFFFFFFFFFFFFFFFFFF1
+T4FE0 001:152.000   Error: Scanning JTAG chain failed.
+T4FE0 001:152.057   InitTarget() end - Took 2.49ms
+T4FE0 001:152.092 - 182.630ms returns 1
+T4FE0 001:152.128 JLINK_ReadMem(0x400E001C, 0x4 Bytes, ...)
+T4FE0 001:152.408   ConfigTargetSettings() start
+T4FE0 001:152.454    J-Link Script File: Executing ConfigTargetSettings()
+T4FE0 001:152.476   Configuring FlashDLNoRMWThreshold=0x200 in order to make sure that option bytes programming is done via read-modify-write
+T4FE0 001:178.200   ConfigTargetSettings() end - Took 25.7ms
+T4FE0 001:178.252   InitTarget() start
+T4FE0 001:178.282    J-Link Script File: Executing InitTarget()
+T4FE0 001:178.308   JTAG selected. Identifying JTAG Chain...
+T4FE0 001:179.811   TotalIRLen = ?, IRPrint = 0x..FFFFFFFFFFFFFFFFFFFFFFF1
+T4FE0 001:180.368   Error: Scanning JTAG chain failed.
+T4FE0 001:180.423   InitTarget() end - Took 2.14ms
+T4FE0 001:180.461   Connect failed. Resetting via Reset pin and trying again.
+T4FE0 001:321.739   ConfigTargetSettings() start
+T4FE0 001:321.850    J-Link Script File: Executing ConfigTargetSettings()
+T4FE0 001:321.880   Configuring FlashDLNoRMWThreshold=0x200 in order to make sure that option bytes programming is done via read-modify-write
+T4FE0 001:351.193   ConfigTargetSettings() end - Took 29.3ms
+T4FE0 001:351.250   InitTarget() start
+T4FE0 001:351.284    J-Link Script File: Executing InitTarget()
+T4FE0 001:351.306   JTAG selected. Identifying JTAG Chain...
+T4FE0 001:352.837   TotalIRLen = ?, IRPrint = 0x..FFFFFFFFFFFFFFFFFFFFFFF1
+T4FE0 001:353.475   Error: Scanning JTAG chain failed.
+T4FE0 001:353.528   InitTarget() end - Took 2.24ms
+T4FE0 001:353.559 - 201.443ms returns 1
+T4FE0 001:353.605 JLINK_ReadMem(0xE000EDF0, 0x4 Bytes, ...)
+T4FE0 001:353.881   ConfigTargetSettings() start
+T4FE0 001:353.934    J-Link Script File: Executing ConfigTargetSettings()
+T4FE0 001:353.958   Configuring FlashDLNoRMWThreshold=0x200 in order to make sure that option bytes programming is done via read-modify-write
+T4FE0 001:377.491   ConfigTargetSettings() end - Took 23.5ms
+T4FE0 001:377.544   InitTarget() start
+T4FE0 001:377.579    J-Link Script File: Executing InitTarget()
+T4FE0 001:377.599   JTAG selected. Identifying JTAG Chain...
+T4FE0 001:378.919   TotalIRLen = ?, IRPrint = 0x..FFFFFFFFFFFFFFFFFFFFFFF1
+T4FE0 001:379.406   Error: Scanning JTAG chain failed.
+T4FE0 001:379.461   InitTarget() end - Took 1.88ms
+T4FE0 001:379.488   Connect failed. Resetting via Reset pin and trying again.
+T4FE0 001:521.556   ConfigTargetSettings() start
+T4FE0 001:521.682    J-Link Script File: Executing ConfigTargetSettings()
+T4FE0 001:521.712   Configuring FlashDLNoRMWThreshold=0x200 in order to make sure that option bytes programming is done via read-modify-write
+T4FE0 001:547.477   ConfigTargetSettings() end - Took 25.7ms
+T4FE0 001:547.537   InitTarget() start
+T4FE0 001:547.566    J-Link Script File: Executing InitTarget()
+T4FE0 001:547.587   JTAG selected. Identifying JTAG Chain...
+T4FE0 001:548.869   TotalIRLen = ?, IRPrint = 0x..FFFFFFFFFFFFFFFFFFFFFFF1
+T4FE0 001:549.377   Error: Scanning JTAG chain failed.
+T4FE0 001:549.436   InitTarget() end - Took 1.86ms
+T4FE0 001:549.469 - 195.875ms returns 1
+T4FE0 001:549.862 JLINK_ReadMem(0x400E0018, 0x4 Bytes, ...)
+T4FE0 001:550.099   ConfigTargetSettings() start
+T4FE0 001:550.143    J-Link Script File: Executing ConfigTargetSettings()
+T4FE0 001:550.168   Configuring FlashDLNoRMWThreshold=0x200 in order to make sure that option bytes programming is done via read-modify-write
+T4FE0 001:575.153   ConfigTargetSettings() end - Took 25.0ms
+T4FE0 001:575.202   InitTarget() start
+T4FE0 001:575.230    J-Link Script File: Executing InitTarget()
+T4FE0 001:575.266   JTAG selected. Identifying JTAG Chain...
+T4FE0 001:576.487   TotalIRLen = ?, IRPrint = 0x..FFFFFFFFFFFFFFFFFFFFFFF1
+T4FE0 001:577.058   Error: Scanning JTAG chain failed.
+T4FE0 001:577.145   InitTarget() end - Took 1.91ms
+T4FE0 001:577.173   Connect failed. Resetting via Reset pin and trying again.
+T4FE0 001:722.572   ConfigTargetSettings() start
+T4FE0 001:722.681    J-Link Script File: Executing ConfigTargetSettings()
+T4FE0 001:722.716   Configuring FlashDLNoRMWThreshold=0x200 in order to make sure that option bytes programming is done via read-modify-write
+T4FE0 001:752.285   ConfigTargetSettings() end - Took 29.6ms
+T4FE0 001:752.334   InitTarget() start
+T4FE0 001:752.366    J-Link Script File: Executing InitTarget()
+T4FE0 001:752.389   JTAG selected. Identifying JTAG Chain...
+T4FE0 001:753.658   TotalIRLen = ?, IRPrint = 0x..FFFFFFFFFFFFFFFFFFFFFFF1
+T4FE0 001:754.187   Error: Scanning JTAG chain failed.
+T4FE0 001:754.257   InitTarget() end - Took 1.88ms
+T4FE0 001:754.289 - 204.440ms returns 1
+T4FE0 001:754.350 JLINK_ReadMem(0xE000EDF0, 0x4 Bytes, ...)
+T4FE0 001:754.530   ConfigTargetSettings() start
+T4FE0 001:754.572    J-Link Script File: Executing ConfigTargetSettings()
+T4FE0 001:754.594   Configuring FlashDLNoRMWThreshold=0x200 in order to make sure that option bytes programming is done via read-modify-write
+T4FE0 001:777.826   ConfigTargetSettings() end - Took 23.2ms
+T4FE0 001:777.869   InitTarget() start
+T4FE0 001:777.896    J-Link Script File: Executing InitTarget()
+T4FE0 001:777.920   JTAG selected. Identifying JTAG Chain...
+T4FE0 001:779.232   TotalIRLen = ?, IRPrint = 0x..FFFFFFFFFFFFFFFFFFFFFFF1
+T4FE0 001:779.855   Error: Scanning JTAG chain failed.
+T4FE0 001:779.898   InitTarget() end - Took 2.00ms
+T4FE0 001:779.927   Connect failed. Resetting via Reset pin and trying again.
+T4FE0 001:922.059   ConfigTargetSettings() start
+T4FE0 001:922.163    J-Link Script File: Executing ConfigTargetSettings()
+T4FE0 001:922.188   Configuring FlashDLNoRMWThreshold=0x200 in order to make sure that option bytes programming is done via read-modify-write
+T4FE0 001:947.417   ConfigTargetSettings() end - Took 25.2ms
+T4FE0 001:947.463   InitTarget() start
+T4FE0 001:947.496    J-Link Script File: Executing InitTarget()
+T4FE0 001:947.520   JTAG selected. Identifying JTAG Chain...
+T4FE0 001:948.763   TotalIRLen = ?, IRPrint = 0x..FFFFFFFFFFFFFFFFFFFFFFF1
+T4FE0 001:949.235   Error: Scanning JTAG chain failed.
+T4FE0 001:949.280   InitTarget() end - Took 1.78ms
+T4FE0 001:949.313 - 194.974ms returns 1
+T4FE0 001:949.388 JLINK_ReadMem(0x400E0020, 0x4 Bytes, ...)
+T4FE0 001:949.552   ConfigTargetSettings() start
+T4FE0 001:949.605    J-Link Script File: Executing ConfigTargetSettings()
+T4FE0 001:949.626   Configuring FlashDLNoRMWThreshold=0x200 in order to make sure that option bytes programming is done via read-modify-write
+T4FE0 001:974.268   ConfigTargetSettings() end - Took 24.6ms
+T4FE0 001:974.315   InitTarget() start
+T4FE0 001:974.343    J-Link Script File: Executing InitTarget()
+T4FE0 001:974.365   JTAG selected. Identifying JTAG Chain...
+T4FE0 001:975.647   TotalIRLen = ?, IRPrint = 0x..FFFFFFFFFFFFFFFFFFFFFFF1
+T4FE0 001:976.113   Error: Scanning JTAG chain failed.
+T4FE0 001:976.161   InitTarget() end - Took 1.81ms
+T4FE0 001:976.191   Connect failed. Resetting via Reset pin and trying again.
+T4FE0 002:122.176   ConfigTargetSettings() start
+T4FE0 002:122.242    J-Link Script File: Executing ConfigTargetSettings()
+T4FE0 002:122.277   Configuring FlashDLNoRMWThreshold=0x200 in order to make sure that option bytes programming is done via read-modify-write
+T4FE0 002:145.812   ConfigTargetSettings() end - Took 23.5ms
+T4FE0 002:145.857   InitTarget() start
+T4FE0 002:145.883    J-Link Script File: Executing InitTarget()
+T4FE0 002:145.902   JTAG selected. Identifying JTAG Chain...
+T4FE0 002:147.111   TotalIRLen = ?, IRPrint = 0x..FFFFFFFFFFFFFFFFFFFFFFF1
+T4FE0 002:147.587   Error: Scanning JTAG chain failed.
+T4FE0 002:147.636   InitTarget() end - Took 1.75ms
+T4FE0 002:147.668 - 198.289ms returns 1
+T4FE0 002:147.728 JLINK_ReadMem(0xE000EDF0, 0x4 Bytes, ...)
+T4FE0 002:147.940   ConfigTargetSettings() start
+T4FE0 002:147.987    J-Link Script File: Executing ConfigTargetSettings()
+T4FE0 002:148.006   Configuring FlashDLNoRMWThreshold=0x200 in order to make sure that option bytes programming is done via read-modify-write
+T4FE0 002:171.081   ConfigTargetSettings() end - Took 23.0ms
+T4FE0 002:171.127   InitTarget() start
+T4FE0 002:171.155    J-Link Script File: Executing InitTarget()
+T4FE0 002:171.174   JTAG selected. Identifying JTAG Chain...
+T4FE0 002:172.484   TotalIRLen = ?, IRPrint = 0x..FFFFFFFFFFFFFFFFFFFFFFF1
+T4FE0 002:172.970   Error: Scanning JTAG chain failed.
+T4FE0 002:173.008   InitTarget() end - Took 1.85ms
+T4FE0 002:173.042   Connect failed. Resetting via Reset pin and trying again.
+T4FE0 002:322.104   ConfigTargetSettings() start
+T4FE0 002:322.222    J-Link Script File: Executing ConfigTargetSettings()
+T4FE0 002:322.248   Configuring FlashDLNoRMWThreshold=0x200 in order to make sure that option bytes programming is done via read-modify-write
+T4FE0 002:348.085   ConfigTargetSettings() end - Took 25.8ms
+T4FE0 002:348.138   InitTarget() start
+T4FE0 002:348.169    J-Link Script File: Executing InitTarget()
+T4FE0 002:348.191   JTAG selected. Identifying JTAG Chain...
+T4FE0 002:349.708   TotalIRLen = ?, IRPrint = 0x..FFFFFFFFFFFFFFFFFFFFFFF1
+T4FE0 002:350.309   Error: Scanning JTAG chain failed.
+T4FE0 002:350.362   InitTarget() end - Took 2.19ms
+T4FE0 002:350.398 - 202.681ms returns 1
+T4FE0 002:350.497 JLINK_ReadMem(0x400E0028, 0x4 Bytes, ...)
+T4FE0 002:350.796   ConfigTargetSettings() start
+T4FE0 002:350.849    J-Link Script File: Executing ConfigTargetSettings()
+T4FE0 002:350.873   Configuring FlashDLNoRMWThreshold=0x200 in order to make sure that option bytes programming is done via read-modify-write
+T4FE0 002:374.391   ConfigTargetSettings() end - Took 23.5ms
+T4FE0 002:374.436   InitTarget() start
+T4FE0 002:374.463    J-Link Script File: Executing InitTarget()
+T4FE0 002:374.484   JTAG selected. Identifying JTAG Chain...
+T4FE0 002:375.948   TotalIRLen = ?, IRPrint = 0x..FFFFFFFFFFFFFFFFFFFFFFF1
+T4FE0 002:376.463   Error: Scanning JTAG chain failed.
+T4FE0 002:376.508   InitTarget() end - Took 2.04ms
+T4FE0 002:376.534   Connect failed. Resetting via Reset pin and trying again.
+T4FE0 002:522.386   ConfigTargetSettings() start
+T4FE0 002:522.518    J-Link Script File: Executing ConfigTargetSettings()
+T4FE0 002:522.565   Configuring FlashDLNoRMWThreshold=0x200 in order to make sure that option bytes programming is done via read-modify-write
+T4FE0 002:552.842   ConfigTargetSettings() end - Took 30.3ms
+T4FE0 002:552.891   InitTarget() start
+T4FE0 002:552.921    J-Link Script File: Executing InitTarget()
+T4FE0 002:552.942   JTAG selected. Identifying JTAG Chain...
+T4FE0 002:554.472   TotalIRLen = ?, IRPrint = 0x..FFFFFFFFFFFFFFFFFFFFFFF1
+T4FE0 002:555.221   Error: Scanning JTAG chain failed.
+T4FE0 002:555.272   InitTarget() end - Took 2.35ms
+T4FE0 002:555.304 - 204.817ms returns 1
+T4FE0 002:555.344 JLINK_ReadMem(0xE000EDF0, 0x4 Bytes, ...)
+T4FE0 002:555.677   ConfigTargetSettings() start
+T4FE0 002:555.732    J-Link Script File: Executing ConfigTargetSettings()
+T4FE0 002:555.756   Configuring FlashDLNoRMWThreshold=0x200 in order to make sure that option bytes programming is done via read-modify-write
+T4FE0 002:579.737   ConfigTargetSettings() end - Took 24.0ms
+T4FE0 002:579.792   InitTarget() start
+T4FE0 002:579.821    J-Link Script File: Executing InitTarget()
+T4FE0 002:579.843   JTAG selected. Identifying JTAG Chain...
+T4FE0 002:581.153   TotalIRLen = ?, IRPrint = 0x..FFFFFFFFFFFFFFFFFFFFFFF1
+T4FE0 002:581.742   Error: Scanning JTAG chain failed.
+T4FE0 002:581.796   InitTarget() end - Took 1.97ms
+T4FE0 002:581.825   Connect failed. Resetting via Reset pin and trying again.
+T4FE0 002:721.882   ConfigTargetSettings() start
+T4FE0 002:722.129    J-Link Script File: Executing ConfigTargetSettings()
+T4FE0 002:722.221   Configuring FlashDLNoRMWThreshold=0x200 in order to make sure that option bytes programming is done via read-modify-write
+T4FE0 002:762.519   ConfigTargetSettings() end - Took 40.3ms
+T4FE0 002:762.567   InitTarget() start
+T4FE0 002:762.597    J-Link Script File: Executing InitTarget()
+T4FE0 002:762.618   JTAG selected. Identifying JTAG Chain...
+T4FE0 002:764.028   TotalIRLen = ?, IRPrint = 0x..FFFFFFFFFFFFFFFFFFFFFFF1
+T4FE0 002:764.516   Error: Scanning JTAG chain failed.
+T4FE0 002:764.568   InitTarget() end - Took 1.97ms
+T4FE0 002:764.598 - 209.266ms returns 1
+T4FE0 002:764.633 JLINK_ReadMem(0x400E0024, 0x4 Bytes, ...)
+T4FE0 002:764.853   ConfigTargetSettings() start
+T4FE0 002:764.895    J-Link Script File: Executing ConfigTargetSettings()
+T4FE0 002:764.917   Configuring FlashDLNoRMWThreshold=0x200 in order to make sure that option bytes programming is done via read-modify-write
+T4FE0 002:788.900   ConfigTargetSettings() end - Took 24.0ms
+T4FE0 002:788.948   InitTarget() start
+T4FE0 002:788.976    J-Link Script File: Executing InitTarget()
+T4FE0 002:788.996   JTAG selected. Identifying JTAG Chain...
+T4FE0 002:790.494   TotalIRLen = ?, IRPrint = 0x..FFFFFFFFFFFFFFFFFFFFFFF1
+T4FE0 002:791.306   Error: Scanning JTAG chain failed.
+T4FE0 002:791.367   InitTarget() end - Took 2.39ms
+T4FE0 002:791.400   Connect failed. Resetting via Reset pin and trying again.
+T4FE0 002:922.601   ConfigTargetSettings() start
+T4FE0 002:922.911    J-Link Script File: Executing ConfigTargetSettings()
+T4FE0 002:922.999   Configuring FlashDLNoRMWThreshold=0x200 in order to make sure that option bytes programming is done via read-modify-write
+T4FE0 002:988.987   ConfigTargetSettings() end - Took 66.0ms
+T4FE0 002:989.034   InitTarget() start
+T4FE0 002:989.066    J-Link Script File: Executing InitTarget()
+T4FE0 002:989.089   JTAG selected. Identifying JTAG Chain...
+T4FE0 002:990.664   TotalIRLen = ?, IRPrint = 0x..FFFFFFFFFFFFFFFFFFFFFFF1
+T4FE0 002:991.304   Error: Scanning JTAG chain failed.
+T4FE0 002:991.354   InitTarget() end - Took 2.28ms
+T4FE0 002:991.384 - 226.761ms returns 1
+T4FE0 002:991.424 JLINK_ReadMem(0xE000EDF0, 0x4 Bytes, ...)
+T4FE0 002:991.720   ConfigTargetSettings() start
+T4FE0 002:991.767    J-Link Script File: Executing ConfigTargetSettings()
+T4FE0 002:991.787   Configuring FlashDLNoRMWThreshold=0x200 in order to make sure that option bytes programming is done via read-modify-write
+T4FE0 003:014.466   ConfigTargetSettings() end - Took 22.6ms
+T4FE0 003:014.511   InitTarget() start
+T4FE0 003:014.538    J-Link Script File: Executing InitTarget()
+T4FE0 003:014.559   JTAG selected. Identifying JTAG Chain...
+T4FE0 003:016.169   TotalIRLen = ?, IRPrint = 0x..FFFFFFFFFFFFFFFFFFFFFFF1
+T4FE0 003:016.731   Error: Scanning JTAG chain failed.
+T4FE0 003:016.781   InitTarget() end - Took 2.24ms
+T4FE0 003:016.811   Connect failed. Resetting via Reset pin and trying again.
+T4FE0 003:121.941   ConfigTargetSettings() start
+T4FE0 003:122.082    J-Link Script File: Executing ConfigTargetSettings()
+T4FE0 003:122.108   Configuring FlashDLNoRMWThreshold=0x200 in order to make sure that option bytes programming is done via read-modify-write
+T4FE0 003:149.469   ConfigTargetSettings() end - Took 27.3ms
+T4FE0 003:149.529   InitTarget() start
+T4FE0 003:149.562    J-Link Script File: Executing InitTarget()
+T4FE0 003:149.586   JTAG selected. Identifying JTAG Chain...
+T4FE0 003:150.937   TotalIRLen = ?, IRPrint = 0x..FFFFFFFFFFFFFFFFFFFFFFF1
+T4FE0 003:151.482   Error: Scanning JTAG chain failed.
+T4FE0 003:151.534   InitTarget() end - Took 1.97ms
+T4FE0 003:151.568 - 160.154ms returns 1
+T4FE0 003:152.136 JLINK_ReadMem(0x400E002C, 0x4 Bytes, ...)
+T4FE0 003:152.366   ConfigTargetSettings() start
+T4FE0 003:152.431    J-Link Script File: Executing ConfigTargetSettings()
+T4FE0 003:152.456   Configuring FlashDLNoRMWThreshold=0x200 in order to make sure that option bytes programming is done via read-modify-write
+T4FE0 003:177.508   ConfigTargetSettings() end - Took 25.0ms
+T4FE0 003:177.566   InitTarget() start
+T4FE0 003:177.598    J-Link Script File: Executing InitTarget()
+T4FE0 003:177.621   JTAG selected. Identifying JTAG Chain...
+T4FE0 003:179.047   TotalIRLen = ?, IRPrint = 0x..FFFFFFFFFFFFFFFFFFFFFFF1
+T4FE0 003:179.764   Error: Scanning JTAG chain failed.
+T4FE0 003:179.817   InitTarget() end - Took 2.21ms
+T4FE0 003:179.854   Connect failed. Resetting via Reset pin and trying again.
+T4FE0 003:322.194   ConfigTargetSettings() start
+T4FE0 003:322.281    J-Link Script File: Executing ConfigTargetSettings()
+T4FE0 003:322.320   Configuring FlashDLNoRMWThreshold=0x200 in order to make sure that option bytes programming is done via read-modify-write
+T4FE0 003:351.503   ConfigTargetSettings() end - Took 29.2ms
+T4FE0 003:351.548   InitTarget() start
+T4FE0 003:351.575    J-Link Script File: Executing InitTarget()
+T4FE0 003:351.598   JTAG selected. Identifying JTAG Chain...
+T4FE0 003:352.909   TotalIRLen = ?, IRPrint = 0x..FFFFFFFFFFFFFFFFFFFFFFF1
+T4FE0 003:353.457   Error: Scanning JTAG chain failed.
+T4FE0 003:353.506   InitTarget() end - Took 1.92ms
+T4FE0 003:353.532 - 201.404ms returns 1
+T4FE0 003:353.585 JLINK_ReadMem(0xE000EDF0, 0x4 Bytes, ...)
+T4FE0 003:353.830   ConfigTargetSettings() start
+T4FE0 003:353.876    J-Link Script File: Executing ConfigTargetSettings()
+T4FE0 003:353.896   Configuring FlashDLNoRMWThreshold=0x200 in order to make sure that option bytes programming is done via read-modify-write
+T4FE0 003:382.448   ConfigTargetSettings() end - Took 28.5ms
+T4FE0 003:382.495   InitTarget() start
+T4FE0 003:382.522    J-Link Script File: Executing InitTarget()
+T4FE0 003:382.542   JTAG selected. Identifying JTAG Chain...
+T4FE0 003:383.862   TotalIRLen = ?, IRPrint = 0x..FFFFFFFFFFFFFFFFFFFFFFF1
+T4FE0 003:384.308   Error: Scanning JTAG chain failed.
+T4FE0 003:384.358   InitTarget() end - Took 1.83ms
+T4FE0 003:384.389   Connect failed. Resetting via Reset pin and trying again.
+T4FE0 003:522.652   ConfigTargetSettings() start
+T4FE0 003:522.727    J-Link Script File: Executing ConfigTargetSettings()
+T4FE0 003:522.761   Configuring FlashDLNoRMWThreshold=0x200 in order to make sure that option bytes programming is done via read-modify-write
+T4FE0 003:552.216   ConfigTargetSettings() end - Took 29.4ms
+T4FE0 003:552.262   InitTarget() start
+T4FE0 003:552.291    J-Link Script File: Executing InitTarget()
+T4FE0 003:552.313   JTAG selected. Identifying JTAG Chain...
+T4FE0 003:553.627   TotalIRLen = ?, IRPrint = 0x..FFFFFFFFFFFFFFFFFFFFFFF1
+T4FE0 003:554.106   Error: Scanning JTAG chain failed.
+T4FE0 003:554.159   InitTarget() end - Took 1.86ms
+T4FE0 003:554.188 - 200.612ms returns 1
+T4FE0 003:554.248 JLINK_ReadMem(0x400E002C, 0x4 Bytes, ...)
+T4FE0 003:554.431   ConfigTargetSettings() start
+T4FE0 003:554.468    J-Link Script File: Executing ConfigTargetSettings()
+T4FE0 003:554.488   Configuring FlashDLNoRMWThreshold=0x200 in order to make sure that option bytes programming is done via read-modify-write
+T4FE0 003:586.894   ConfigTargetSettings() end - Took 32.4ms
+T4FE0 003:586.942   InitTarget() start
+T4FE0 003:586.969    J-Link Script File: Executing InitTarget()
+T4FE0 003:586.988   JTAG selected. Identifying JTAG Chain...
+T4FE0 003:588.372   TotalIRLen = ?, IRPrint = 0x..FFFFFFFFFFFFFFFFFFFFFFF1
+T4FE0 003:589.019   Error: Scanning JTAG chain failed.
+T4FE0 003:589.081   InitTarget() end - Took 2.11ms
+T4FE0 003:589.109   Connect failed. Resetting via Reset pin and trying again.
+T4FE0 003:722.695   ConfigTargetSettings() start
+T4FE0 003:722.771    J-Link Script File: Executing ConfigTargetSettings()
+T4FE0 003:722.798   Configuring FlashDLNoRMWThreshold=0x200 in order to make sure that option bytes programming is done via read-modify-write
+T4FE0 003:749.774   ConfigTargetSettings() end - Took 27.0ms
+T4FE0 003:749.823   InitTarget() start
+T4FE0 003:749.854    J-Link Script File: Executing InitTarget()
+T4FE0 003:749.878   JTAG selected. Identifying JTAG Chain...
+T4FE0 003:751.195   TotalIRLen = ?, IRPrint = 0x..FFFFFFFFFFFFFFFFFFFFFFF1
+T4FE0 003:751.752   Error: Scanning JTAG chain failed.
+T4FE0 003:751.819   InitTarget() end - Took 1.96ms
+T4FE0 003:751.849 - 197.614ms returns 1
+T4FE0 003:751.897 JLINK_ReadMem(0xE000EDF0, 0x4 Bytes, ...)
+T4FE0 003:752.109   ConfigTargetSettings() start
+T4FE0 003:752.150    J-Link Script File: Executing ConfigTargetSettings()
+T4FE0 003:752.171   Configuring FlashDLNoRMWThreshold=0x200 in order to make sure that option bytes programming is done via read-modify-write
+T4FE0 003:773.860   ConfigTargetSettings() end - Took 21.7ms
+T4FE0 003:773.911   InitTarget() start
+T4FE0 003:773.937    J-Link Script File: Executing InitTarget()
+T4FE0 003:773.958   JTAG selected. Identifying JTAG Chain...
+T4FE0 003:775.306   TotalIRLen = ?, IRPrint = 0x..FFFFFFFFFFFFFFFFFFFFFFF1
+T4FE0 003:775.830   Error: Scanning JTAG chain failed.
+T4FE0 003:775.879   InitTarget() end - Took 1.94ms
+T4FE0 003:775.908   Connect failed. Resetting via Reset pin and trying again.
+T4FE0 003:922.815   ConfigTargetSettings() start
+T4FE0 003:922.920    J-Link Script File: Executing ConfigTargetSettings()
+T4FE0 003:922.959   Configuring FlashDLNoRMWThreshold=0x200 in order to make sure that option bytes programming is done via read-modify-write
+T4FE0 003:951.295   ConfigTargetSettings() end - Took 28.3ms
+T4FE0 003:951.341   InitTarget() start
+T4FE0 003:951.375    J-Link Script File: Executing InitTarget()
+T4FE0 003:951.396   JTAG selected. Identifying JTAG Chain...
+T4FE0 003:952.797   TotalIRLen = ?, IRPrint = 0x..FFFFFFFFFFFFFFFFFFFFFFF1
+T4FE0 003:953.287   Error: Scanning JTAG chain failed.
+T4FE0 003:953.328   InitTarget() end - Took 1.95ms
+T4FE0 003:953.356 - 201.470ms returns 1
+T4FE0 003:953.423 JLINK_ReadMem(0x400E001C, 0x4 Bytes, ...)
+T4FE0 003:953.614   ConfigTargetSettings() start
+T4FE0 003:953.648    J-Link Script File: Executing ConfigTargetSettings()
+T4FE0 003:953.672   Configuring FlashDLNoRMWThreshold=0x200 in order to make sure that option bytes programming is done via read-modify-write
+T4FE0 003:982.485   ConfigTargetSettings() end - Took 28.8ms
+T4FE0 003:982.555   InitTarget() start
+T4FE0 003:982.586    J-Link Script File: Executing InitTarget()
+T4FE0 003:982.605   JTAG selected. Identifying JTAG Chain...
+T4FE0 003:983.880   TotalIRLen = ?, IRPrint = 0x..FFFFFFFFFFFFFFFFFFFFFFF1
+T4FE0 003:984.417   Error: Scanning JTAG chain failed.
+T4FE0 003:984.468   InitTarget() end - Took 1.88ms
+T4FE0 003:984.495   Connect failed. Resetting via Reset pin and trying again.
+T4FE0 004:122.802   ConfigTargetSettings() start
+T4FE0 004:122.943    J-Link Script File: Executing ConfigTargetSettings()
+T4FE0 004:122.967   Configuring FlashDLNoRMWThreshold=0x200 in order to make sure that option bytes programming is done via read-modify-write
+T4FE0 004:148.820   ConfigTargetSettings() end - Took 25.8ms
+T4FE0 004:148.870   InitTarget() start
+T4FE0 004:148.901    J-Link Script File: Executing InitTarget()
+T4FE0 004:148.922   JTAG selected. Identifying JTAG Chain...
+T4FE0 004:150.334   TotalIRLen = ?, IRPrint = 0x..FFFFFFFFFFFFFFFFFFFFFFF1
+T4FE0 004:150.892   Error: Scanning JTAG chain failed.
+T4FE0 004:150.940   InitTarget() end - Took 2.03ms
+T4FE0 004:150.968 - 197.555ms returns 1
+T4FE0 004:151.023 JLINK_ReadMem(0xE000EDF0, 0x4 Bytes, ...)
+T4FE0 004:151.258   ConfigTargetSettings() start
+T4FE0 004:151.306    J-Link Script File: Executing ConfigTargetSettings()
+T4FE0 004:151.331   Configuring FlashDLNoRMWThreshold=0x200 in order to make sure that option bytes programming is done via read-modify-write
+T4FE0 004:174.843   ConfigTargetSettings() end - Took 23.5ms
+T4FE0 004:174.885   InitTarget() start
+T4FE0 004:174.912    J-Link Script File: Executing InitTarget()
+T4FE0 004:174.933   JTAG selected. Identifying JTAG Chain...
+T4FE0 004:176.521   TotalIRLen = ?, IRPrint = 0x..FFFFFFFFFFFFFFFFFFFFFFF1
+T4FE0 004:177.287   Error: Scanning JTAG chain failed.
+T4FE0 004:177.336   InitTarget() end - Took 2.42ms
+T4FE0 004:177.369   Connect failed. Resetting via Reset pin and trying again.
+T4FE0 004:322.189   ConfigTargetSettings() start
+T4FE0 004:322.268    J-Link Script File: Executing ConfigTargetSettings()
+T4FE0 004:322.291   Configuring FlashDLNoRMWThreshold=0x200 in order to make sure that option bytes programming is done via read-modify-write
+T4FE0 004:346.057   ConfigTargetSettings() end - Took 23.7ms
+T4FE0 004:346.115   InitTarget() start
+T4FE0 004:346.149    J-Link Script File: Executing InitTarget()
+T4FE0 004:346.172   JTAG selected. Identifying JTAG Chain...
+T4FE0 004:347.610   TotalIRLen = ?, IRPrint = 0x..FFFFFFFFFFFFFFFFFFFFFFF1
+T4FE0 004:348.147   Error: Scanning JTAG chain failed.
+T4FE0 004:348.199   InitTarget() end - Took 2.04ms
+T4FE0 004:348.233 - 197.221ms returns 1
+T4FE0 004:348.360 JLINK_ReadMem(0x400E0018, 0x4 Bytes, ...)
+T4FE0 004:348.573   ConfigTargetSettings() start
+T4FE0 004:348.622    J-Link Script File: Executing ConfigTargetSettings()
+T4FE0 004:348.645   Configuring FlashDLNoRMWThreshold=0x200 in order to make sure that option bytes programming is done via read-modify-write
+T4FE0 004:371.965   ConfigTargetSettings() end - Took 23.3ms
+T4FE0 004:372.014   InitTarget() start
+T4FE0 004:372.042    J-Link Script File: Executing InitTarget()
+T4FE0 004:372.063   JTAG selected. Identifying JTAG Chain...
+T4FE0 004:373.455   TotalIRLen = ?, IRPrint = 0x..FFFFFFFFFFFFFFFFFFFFFFF1
+T4FE0 004:374.115   Error: Scanning JTAG chain failed.
+T4FE0 004:374.161   InitTarget() end - Took 2.11ms
+T4FE0 004:374.189   Connect failed. Resetting via Reset pin and trying again.
+T4FE0 004:521.714   ConfigTargetSettings() start
+T4FE0 004:521.863    J-Link Script File: Executing ConfigTargetSettings()
+T4FE0 004:521.898   Configuring FlashDLNoRMWThreshold=0x200 in order to make sure that option bytes programming is done via read-modify-write
+T4FE0 004:553.201   ConfigTargetSettings() end - Took 31.3ms
+T4FE0 004:553.250   InitTarget() start
+T4FE0 004:553.283    J-Link Script File: Executing InitTarget()
+T4FE0 004:553.306   JTAG selected. Identifying JTAG Chain...
+T4FE0 004:554.722   TotalIRLen = ?, IRPrint = 0x..FFFFFFFFFFFFFFFFFFFFFFF1
+T4FE0 004:555.316   Error: Scanning JTAG chain failed.
+T4FE0 004:555.370   InitTarget() end - Took 2.08ms
+T4FE0 004:555.407 - 207.057ms returns 1
+T4FE0 004:555.667 JLINK_ReadMem(0xE000EDF0, 0x4 Bytes, ...)
+T4FE0 004:555.891   ConfigTargetSettings() start
+T4FE0 004:555.929    J-Link Script File: Executing ConfigTargetSettings()
+T4FE0 004:555.950   Configuring FlashDLNoRMWThreshold=0x200 in order to make sure that option bytes programming is done via read-modify-write
+T4FE0 004:579.197   ConfigTargetSettings() end - Took 23.2ms
+T4FE0 004:579.248   InitTarget() start
+T4FE0 004:579.277    J-Link Script File: Executing InitTarget()
+T4FE0 004:579.305   JTAG selected. Identifying JTAG Chain...
+T4FE0 004:580.750   TotalIRLen = ?, IRPrint = 0x..FFFFFFFFFFFFFFFFFFFFFFF1
+T4FE0 004:581.372   Error: Scanning JTAG chain failed.
+T4FE0 004:581.425   InitTarget() end - Took 2.14ms
+T4FE0 004:581.455   Connect failed. Resetting via Reset pin and trying again.
+T4FE0 004:721.769   ConfigTargetSettings() start
+T4FE0 004:721.924    J-Link Script File: Executing ConfigTargetSettings()
+T4FE0 004:721.972   Configuring FlashDLNoRMWThreshold=0x200 in order to make sure that option bytes programming is done via read-modify-write
+T4FE0 004:757.517   ConfigTargetSettings() end - Took 35.5ms
+T4FE0 004:757.566   InitTarget() start
+T4FE0 004:757.596    J-Link Script File: Executing InitTarget()
+T4FE0 004:757.617   JTAG selected. Identifying JTAG Chain...
+T4FE0 004:759.007   TotalIRLen = ?, IRPrint = 0x..FFFFFFFFFFFFFFFFFFFFFFF1
+T4FE0 004:759.754   Error: Scanning JTAG chain failed.
+T4FE0 004:759.802   InitTarget() end - Took 2.20ms
+T4FE0 004:759.835 - 204.178ms returns 1
+T4FE0 004:759.937 JLINK_ReadMem(0x400E0020, 0x4 Bytes, ...)
+T4FE0 004:760.248   ConfigTargetSettings() start
+T4FE0 004:760.297    J-Link Script File: Executing ConfigTargetSettings()
+T4FE0 004:760.319   Configuring FlashDLNoRMWThreshold=0x200 in order to make sure that option bytes programming is done via read-modify-write
+T4FE0 004:783.644   ConfigTargetSettings() end - Took 23.3ms
+T4FE0 004:783.687   InitTarget() start
+T4FE0 004:783.714    J-Link Script File: Executing InitTarget()
+T4FE0 004:783.734   JTAG selected. Identifying JTAG Chain...
+T4FE0 004:785.397   TotalIRLen = ?, IRPrint = 0x..FFFFFFFFFFFFFFFFFFFFFFF1
+T4FE0 004:786.026   Error: Scanning JTAG chain failed.
+T4FE0 004:786.071   InitTarget() end - Took 2.35ms
+T4FE0 004:786.117   Connect failed. Resetting via Reset pin and trying again.
+T4FE0 004:921.888   ConfigTargetSettings() start
+T4FE0 004:922.039    J-Link Script File: Executing ConfigTargetSettings()
+T4FE0 004:922.105   Configuring FlashDLNoRMWThreshold=0x200 in order to make sure that option bytes programming is done via read-modify-write
+T4FE0 004:952.920   ConfigTargetSettings() end - Took 30.8ms
+T4FE0 004:952.968   InitTarget() start
+T4FE0 004:953.000    J-Link Script File: Executing InitTarget()
+T4FE0 004:953.024   JTAG selected. Identifying JTAG Chain...
+T4FE0 004:954.327   TotalIRLen = ?, IRPrint = 0x..FFFFFFFFFFFFFFFFFFFFFFF1
+T4FE0 004:954.892   Error: Scanning JTAG chain failed.
+T4FE0 004:954.984   InitTarget() end - Took 1.98ms
+T4FE0 004:955.020 - 195.093ms returns 1
+T4FE0 004:955.078 JLINK_ReadMem(0xE000EDF0, 0x4 Bytes, ...)
+T4FE0 004:955.277   ConfigTargetSettings() start
+T4FE0 004:955.315    J-Link Script File: Executing ConfigTargetSettings()
+T4FE0 004:955.339   Configuring FlashDLNoRMWThreshold=0x200 in order to make sure that option bytes programming is done via read-modify-write
+T4FE0 004:979.284   ConfigTargetSettings() end - Took 23.9ms
+T4FE0 004:979.333   InitTarget() start
+T4FE0 004:979.362    J-Link Script File: Executing InitTarget()
+T4FE0 004:979.384   JTAG selected. Identifying JTAG Chain...
+T4FE0 004:981.002   TotalIRLen = ?, IRPrint = 0x..FFFFFFFFFFFFFFFFFFFFFFF1
+T4FE0 004:981.788   Error: Scanning JTAG chain failed.
+T4FE0 004:981.841   InitTarget() end - Took 2.47ms
+T4FE0 004:981.876   Connect failed. Resetting via Reset pin and trying again.
+T4FE0 005:121.619   ConfigTargetSettings() start
+T4FE0 005:121.711    J-Link Script File: Executing ConfigTargetSettings()
+T4FE0 005:121.735   Configuring FlashDLNoRMWThreshold=0x200 in order to make sure that option bytes programming is done via read-modify-write
+T4FE0 005:147.388   ConfigTargetSettings() end - Took 25.6ms
+T4FE0 005:147.450   InitTarget() start
+T4FE0 005:147.478    J-Link Script File: Executing InitTarget()
+T4FE0 005:147.499   JTAG selected. Identifying JTAG Chain...
+T4FE0 005:148.879   TotalIRLen = ?, IRPrint = 0x..FFFFFFFFFFFFFFFFFFFFFFF1
+T4FE0 005:149.461   Error: Scanning JTAG chain failed.
+T4FE0 005:149.510   InitTarget() end - Took 2.03ms
+T4FE0 005:149.552 - 194.484ms returns 1
+T4FE0 005:149.585 JLINK_ReadMem(0x400E0028, 0x4 Bytes, ...)
+T4FE0 005:149.898   ConfigTargetSettings() start
+T4FE0 005:149.945    J-Link Script File: Executing ConfigTargetSettings()
+T4FE0 005:149.969   Configuring FlashDLNoRMWThreshold=0x200 in order to make sure that option bytes programming is done via read-modify-write
+T4FE0 005:173.266   ConfigTargetSettings() end - Took 23.3ms
+T4FE0 005:173.318   InitTarget() start
+T4FE0 005:173.345    J-Link Script File: Executing InitTarget()
+T4FE0 005:173.368   JTAG selected. Identifying JTAG Chain...
+T4FE0 005:174.696   TotalIRLen = ?, IRPrint = 0x..FFFFFFFFFFFFFFFFFFFFFFF1
+T4FE0 005:175.257   Error: Scanning JTAG chain failed.
+T4FE0 005:175.304   InitTarget() end - Took 1.95ms
+T4FE0 005:175.334   Connect failed. Resetting via Reset pin and trying again.
+T4FE0 005:321.603   ConfigTargetSettings() start
+T4FE0 005:321.671    J-Link Script File: Executing ConfigTargetSettings()
+T4FE0 005:321.691   Configuring FlashDLNoRMWThreshold=0x200 in order to make sure that option bytes programming is done via read-modify-write
+T4FE0 005:344.469   ConfigTargetSettings() end - Took 22.7ms
+T4FE0 005:344.543   InitTarget() start
+T4FE0 005:344.575    J-Link Script File: Executing InitTarget()
+T4FE0 005:344.596   JTAG selected. Identifying JTAG Chain...
+T4FE0 005:345.913   TotalIRLen = ?, IRPrint = 0x..FFFFFFFFFFFFFFFFFFFFFFF1
+T4FE0 005:346.417   Error: Scanning JTAG chain failed.
+T4FE0 005:346.486   InitTarget() end - Took 1.90ms
+T4FE0 005:346.515 - 196.939ms returns 1
+T4FE0 005:346.579 JLINK_ReadMem(0xE000EDF0, 0x4 Bytes, ...)
+T4FE0 005:346.863   ConfigTargetSettings() start
+T4FE0 005:346.911    J-Link Script File: Executing ConfigTargetSettings()
+T4FE0 005:346.931   Configuring FlashDLNoRMWThreshold=0x200 in order to make sure that option bytes programming is done via read-modify-write
+T4FE0 005:373.214   ConfigTargetSettings() end - Took 26.3ms
+T4FE0 005:373.266   InitTarget() start
+T4FE0 005:373.298    J-Link Script File: Executing InitTarget()
+T4FE0 005:373.320   JTAG selected. Identifying JTAG Chain...
+T4FE0 005:374.650   TotalIRLen = ?, IRPrint = 0x..FFFFFFFFFFFFFFFFFFFFFFF1
+T4FE0 005:375.181   Error: Scanning JTAG chain failed.
+T4FE0 005:375.234   InitTarget() end - Took 1.93ms
+T4FE0 005:375.272   Connect failed. Resetting via Reset pin and trying again.
+T4FE0 005:522.129   ConfigTargetSettings() start
+T4FE0 005:522.198    J-Link Script File: Executing ConfigTargetSettings()
+T4FE0 005:522.226   Configuring FlashDLNoRMWThreshold=0x200 in order to make sure that option bytes programming is done via read-modify-write
+T4FE0 005:547.644   ConfigTargetSettings() end - Took 25.4ms
+T4FE0 005:547.705   InitTarget() start
+T4FE0 005:547.738    J-Link Script File: Executing InitTarget()
+T4FE0 005:547.762   JTAG selected. Identifying JTAG Chain...
+T4FE0 005:549.015   TotalIRLen = ?, IRPrint = 0x..FFFFFFFFFFFFFFFFFFFFFFF1
+T4FE0 005:549.561   Error: Scanning JTAG chain failed.
+T4FE0 005:549.616   InitTarget() end - Took 1.87ms
+T4FE0 005:549.651 - 203.083ms returns 1
+T4FE0 005:549.709 JLINK_ReadMem(0x400E0024, 0x4 Bytes, ...)
+T4FE0 005:549.908   ConfigTargetSettings() start
+T4FE0 005:549.950    J-Link Script File: Executing ConfigTargetSettings()
+T4FE0 005:549.974   Configuring FlashDLNoRMWThreshold=0x200 in order to make sure that option bytes programming is done via read-modify-write
+T4FE0 005:575.409   ConfigTargetSettings() end - Took 25.4ms
+T4FE0 005:575.455   InitTarget() start
+T4FE0 005:575.498    J-Link Script File: Executing InitTarget()
+T4FE0 005:575.524   JTAG selected. Identifying JTAG Chain...
+T4FE0 005:576.732   TotalIRLen = ?, IRPrint = 0x..FFFFFFFFFFFFFFFFFFFFFFF1
+T4FE0 005:577.193   Error: Scanning JTAG chain failed.
+T4FE0 005:577.236   InitTarget() end - Took 1.73ms
+T4FE0 005:577.272   Connect failed. Resetting via Reset pin and trying again.
+T4FE0 005:721.953   ConfigTargetSettings() start
+T4FE0 005:722.043    J-Link Script File: Executing ConfigTargetSettings()
+T4FE0 005:722.066   Configuring FlashDLNoRMWThreshold=0x200 in order to make sure that option bytes programming is done via read-modify-write
+T4FE0 005:750.514   ConfigTargetSettings() end - Took 28.4ms
+T4FE0 005:750.567   InitTarget() start
+T4FE0 005:750.598    J-Link Script File: Executing InitTarget()
+T4FE0 005:750.624   JTAG selected. Identifying JTAG Chain...
+T4FE0 005:751.918   TotalIRLen = ?, IRPrint = 0x..FFFFFFFFFFFFFFFFFFFFFFF1
+T4FE0 005:752.469   Error: Scanning JTAG chain failed.
+T4FE0 005:752.524   InitTarget() end - Took 1.92ms
+T4FE0 005:752.555 - 202.858ms returns 1
+T4FE0 005:752.708 JLINK_ReadMem(0xE000EDF0, 0x4 Bytes, ...)
+T4FE0 005:752.951   ConfigTargetSettings() start
+T4FE0 005:753.003    J-Link Script File: Executing ConfigTargetSettings()
+T4FE0 005:753.024   Configuring FlashDLNoRMWThreshold=0x200 in order to make sure that option bytes programming is done via read-modify-write
+T4FE0 005:777.895   ConfigTargetSettings() end - Took 24.8ms
+T4FE0 005:777.943   InitTarget() start
+T4FE0 005:777.975    J-Link Script File: Executing InitTarget()
+T4FE0 005:777.999   JTAG selected. Identifying JTAG Chain...
+T4FE0 005:779.315   TotalIRLen = ?, IRPrint = 0x..FFFFFFFFFFFFFFFFFFFFFFF1
+T4FE0 005:779.883   Error: Scanning JTAG chain failed.
+T4FE0 005:779.938   InitTarget() end - Took 1.96ms
+T4FE0 005:779.969   Connect failed. Resetting via Reset pin and trying again.
+T4FE0 005:921.915   ConfigTargetSettings() start
+T4FE0 005:922.010    J-Link Script File: Executing ConfigTargetSettings()
+T4FE0 005:922.046   Configuring FlashDLNoRMWThreshold=0x200 in order to make sure that option bytes programming is done via read-modify-write
+T4FE0 005:948.962   ConfigTargetSettings() end - Took 26.9ms
+T4FE0 005:949.020   InitTarget() start
+T4FE0 005:949.047    J-Link Script File: Executing InitTarget()
+T4FE0 005:949.069   JTAG selected. Identifying JTAG Chain...
+T4FE0 005:950.359   TotalIRLen = ?, IRPrint = 0x..FFFFFFFFFFFFFFFFFFFFFFF1
+T4FE0 005:950.841   Error: Scanning JTAG chain failed.
+T4FE0 005:950.901   InitTarget() end - Took 1.85ms
+T4FE0 005:950.930 - 198.233ms returns 1
+T4FE0 005:951.170 JLINK_ReadMem(0x400E002C, 0x4 Bytes, ...)
+T4FE0 005:951.379   ConfigTargetSettings() start
+T4FE0 005:951.426    J-Link Script File: Executing ConfigTargetSettings()
+T4FE0 005:951.445   Configuring FlashDLNoRMWThreshold=0x200 in order to make sure that option bytes programming is done via read-modify-write
+T4FE0 005:974.427   ConfigTargetSettings() end - Took 22.9ms
+T4FE0 005:974.471   InitTarget() start
+T4FE0 005:974.497    J-Link Script File: Executing InitTarget()
+T4FE0 005:974.516   JTAG selected. Identifying JTAG Chain...
+T4FE0 005:975.758   TotalIRLen = ?, IRPrint = 0x..FFFFFFFFFFFFFFFFFFFFFFF1
+T4FE0 005:976.221   Error: Scanning JTAG chain failed.
+T4FE0 005:976.261   InitTarget() end - Took 1.76ms
+T4FE0 005:976.288   Connect failed. Resetting via Reset pin and trying again.
+T4FE0 006:122.014   ConfigTargetSettings() start
+T4FE0 006:122.119    J-Link Script File: Executing ConfigTargetSettings()
+T4FE0 006:122.150   Configuring FlashDLNoRMWThreshold=0x200 in order to make sure that option bytes programming is done via read-modify-write
+T4FE0 006:149.774   ConfigTargetSettings() end - Took 27.6ms
+T4FE0 006:149.820   InitTarget() start
+T4FE0 006:149.852    J-Link Script File: Executing InitTarget()
+T4FE0 006:149.875   JTAG selected. Identifying JTAG Chain...
+T4FE0 006:151.370   TotalIRLen = ?, IRPrint = 0x..FFFFFFFFFFFFFFFFFFFFFFF1
+T4FE0 006:152.059   Error: Scanning JTAG chain failed.
+T4FE0 006:152.112   InitTarget() end - Took 2.25ms
+T4FE0 006:152.155 - 200.995ms returns 1
+T4FE0 006:152.586 JLINK_TIF_GetAvailable(...)
+T4FE0 006:152.868 - 0.305ms
+T4FE0 006:152.908 JLINK_TIF_Select(JLINKARM_TIF_SWD)
+T4FE0 006:153.962 - 1.081ms returns 0x00
+T4FE0 006:154.010 JLINK_SetSpeed(4000)
+T4FE0 006:155.506 - 1.523ms
+T4FE0 006:155.551 JLINK_SetEndian(ARM_ENDIAN_LITTLE)
+T4FE0 006:155.572 - 0.031ms returns 0
+T4FE0 006:155.599 JLINK_SetInitRegsOnReset(OFF)
+T4FE0 006:155.627 - 0.039ms returns 1
+T4FE0 006:155.651 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)
+T4FE0 006:155.675 - 0.037ms returns JLINKARM_RESET_TYPE_NORMAL
+T4FE0 006:155.704 JLINK_ExecCommand("EnableFlashBPs", ...). 
+T4FE0 006:155.733 - 0.013ms returns 0x00
+T4FE0 006:155.757 JLINK_ExecCommand("SetAllowFlashCache = 1", ...). 
+T4FE0 006:155.784 - 0.011ms returns 0x01
+T4FE0 006:155.807 JLINK_ExecCommand("SetRestartOnClose = 0", ...). 
+T4FE0 006:155.834 - 0.012ms returns 0x01
+T4FE0 006:155.858 JLINK_EnableSoftBPs(ON)
+T4FE0 006:155.883 - 0.034ms
+T4FE0 006:155.904 JLINK_Connect()
+T4FE0 006:157.332   ConfigTargetSettings() start
+T4FE0 006:157.386    J-Link Script File: Executing ConfigTargetSettings()
+T4FE0 006:157.408   Configuring FlashDLNoRMWThreshold=0x200 in order to make sure that option bytes programming is done via read-modify-write
+T4FE0 006:180.788   ConfigTargetSettings() end - Took 23.4ms
+T4FE0 006:180.834   InitTarget() start
+T4FE0 006:180.861    J-Link Script File: Executing InitTarget()
+T4FE0 006:180.881   SWD selected. Executing JTAG -> SWD switching sequence.
+T4FE0 006:182.568   DAP initialized successfully.
+T4FE0 006:182.628   Determining TrustZone configuration...
+T4FE0 006:183.584     Secure Debug: Enabled (SSD)
+T4FE0 006:183.634   Determining currently configured transfer type by reading the AHB-AP CSW register.
+T4FE0 006:184.377     --> Correct transfer type configured. Done.
+T4FE0 006:184.428   InitTarget() end - Took 3.56ms
+T4FE0 006:185.230   Found SW-DP with ID 0x6BA02477
+T4FE0 006:187.256   DPIDR: 0x6BA02477
+T4FE0 006:187.301   CoreSight SoC-400 or earlier
+T4FE0 006:187.326   Scanning AP map to find all available APs
+T4FE0 006:188.113   AP[2]: Stopped AP scan as end of AP map has been reached
+T4FE0 006:188.191   AP[0]: AHB-AP (IDR: 0x84770001)
+T4FE0 006:188.231   AP[1]: APB-AP (IDR: 0x54770002)
+T4FE0 006:188.264   Iterating through AP map to find AHB-AP to use
+T4FE0 006:188.857   AP[0]: Core found
+T4FE0 006:188.906   AP[0]: AHB-AP ROM base: 0xE00FE000
+T4FE0 006:189.443   CPUID register: 0x410FD214. Implementer code: 0x41 (ARM)
+T4FE0 006:189.485   Feature set: Mainline
+T4FE0 006:189.793   Cache: No cache
+T4FE0 006:190.003   Found Cortex-M33 r0p4, Little endian.
+T4FE0 006:190.541   -- Max. mem block: 0x00003BA8
+T4FE0 006:191.278   CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T4FE0 006:191.821   CPU_WriteMem(4 bytes @ 0xE000EDF0)
+T4FE0 006:192.277   CPU_ReadMem(4 bytes @ 0xE0002000)
+T4FE0 006:192.631   FPUnit: 8 code (BP) slots and 0 literal slots
+T4FE0 006:192.671   CPU_ReadMem(4 bytes @ 0xE000EDFC)
+T4FE0 006:193.003   CPU_WriteMem(4 bytes @ 0xE000EDFC)
+T4FE0 006:193.440   CPU_ReadMem(4 bytes @ 0xE0001000)
+T4FE0 006:193.864   CPU_ReadMem(4 bytes @ 0xE0001000)
+T4FE0 006:194.195   CPU_ReadMem(4 bytes @ 0xE0001028)
+T4FE0 006:194.566   CPU_ReadMem(4 bytes @ 0xE0001038)
+T4FE0 006:194.922   CPU_ReadMem(4 bytes @ 0xE0001048)
+T4FE0 006:195.233   CPU_ReadMem(4 bytes @ 0xE0001058)
+T4FE0 006:195.565   CPU_WriteMem(4 bytes @ 0xE0001000)
+T4FE0 006:196.035   CPU_ReadMem(4 bytes @ 0xE000ED88)
+T4FE0 006:196.382   CPU_WriteMem(4 bytes @ 0xE000ED88)
+T4FE0 006:196.876   CPU_ReadMem(4 bytes @ 0xE000ED88)
+T4FE0 006:197.211   CPU_WriteMem(4 bytes @ 0xE000ED88)
+T4FE0 006:197.686   CPU_ReadMem(4 bytes @ 0xE000EFB8)
+T4FE0 006:198.024   Security extension: implemented
+T4FE0 006:198.069   Secure debug: enabled
+T4FE0 006:198.099   CoreSight components:
+T4FE0 006:198.136   ROMTbl[0] @ E00FE000
+T4FE0 006:198.183   CPU_ReadMem(64 bytes @ 0xE00FE000)
+T4FE0 006:198.793   CPU_ReadMem(32 bytes @ 0xE0044FE0)
+T4FE0 006:199.259   CPU_ReadMem(4 bytes @ 0xE0044FBC)
+T4FE0 006:199.594   CPU_ReadMem(4 bytes @ 0xE0044FCC)
+T4FE0 006:199.944   [0][0]: E0044000 CID B105900D PID 005BB906 DEVARCH 00000000 DEVTYPE 14 CTI (?)
+T4FE0 006:199.991   CPU_ReadMem(32 bytes @ 0xE0047FE0)
+T4FE0 006:200.524   CPU_ReadMem(4 bytes @ 0xE0047FBC)
+T4FE0 006:200.923   CPU_ReadMem(4 bytes @ 0xE0047FCC)
+T4FE0 006:201.254   [0][1]: E0047000 CID B105900D PID 003BB908 DEVARCH 00000000 DEVTYPE 12 CSTF
+T4FE0 006:201.296   CPU_ReadMem(32 bytes @ 0xE0048FE0)
+T4FE0 006:201.834   CPU_ReadMem(4 bytes @ 0xE0048FBC)
+T4FE0 006:202.193   CPU_ReadMem(4 bytes @ 0xE0048FCC)
+T4FE0 006:202.525   [0][2]: E0048000 CID B105900D PID 001BB961 DEVARCH 00000000 DEVTYPE 21 ETB
+T4FE0 006:202.571   CPU_ReadMem(32 bytes @ 0xE0049FE0)
+T4FE0 006:203.073   [0][3]: E0049000 CID B105F00D PID 001BB101 TSG
+T4FE0 006:203.120   CPU_ReadMem(32 bytes @ 0xE0040FE0)
+T4FE0 006:203.643   CPU_ReadMem(4 bytes @ 0xE0040FBC)
+T4FE0 006:203.985   CPU_ReadMem(4 bytes @ 0xE0040FCC)
+T4FE0 006:204.360   [0][4]: E0040000 CID B105900D PID 000BBD21 DEVARCH 00000000 DEVTYPE 11 TPIU
+T4FE0 006:204.406   CPU_ReadMem(32 bytes @ 0xE00FFFE0)
+T4FE0 006:204.859   [0][5]: E00FF000 CID B105100D PID 000BB4C9 ROM Table
+T4FE0 006:204.896   ROMTbl[1] @ E00FF000
+T4FE0 006:204.932   CPU_ReadMem(64 bytes @ 0xE00FF000)
+T4FE0 006:205.487   CPU_ReadMem(32 bytes @ 0xE000EFE0)
+T4FE0 006:205.963   CPU_ReadMem(4 bytes @ 0xE000EFBC)
+T4FE0 006:206.315   CPU_ReadMem(4 bytes @ 0xE000EFCC)
+T4FE0 006:206.691   [1][0]: E000E000 CID B105900D PID 000BBD21 DEVARCH 47702A04 DEVTYPE 00 Cortex-M33
+T4FE0 006:206.732   CPU_ReadMem(32 bytes @ 0xE0001FE0)
+T4FE0 006:207.192   CPU_ReadMem(4 bytes @ 0xE0001FBC)
+T4FE0 006:207.575   CPU_ReadMem(4 bytes @ 0xE0001FCC)
+T4FE0 006:207.932   [1][1]: E0001000 CID B105900D PID 000BBD21 DEVARCH 47701A02 DEVTYPE 00 DWT
+T4FE0 006:207.979   CPU_ReadMem(32 bytes @ 0xE0002FE0)
+T4FE0 006:208.506   CPU_ReadMem(4 bytes @ 0xE0002FBC)
+T4FE0 006:208.900   CPU_ReadMem(4 bytes @ 0xE0002FCC)
+T4FE0 006:209.231   [1][2]: E0002000 CID B105900D PID 000BBD21 DEVARCH 47701A03 DEVTYPE 00 FPB
+T4FE0 006:209.269   CPU_ReadMem(32 bytes @ 0xE0000FE0)
+T4FE0 006:209.798   CPU_ReadMem(4 bytes @ 0xE0000FBC)
+T4FE0 006:210.171   CPU_ReadMem(4 bytes @ 0xE0000FCC)
+T4FE0 006:210.503   [1][3]: E0000000 CID B105900D PID 000BBD21 DEVARCH 47701A01 DEVTYPE 43 ITM
+T4FE0 006:210.547   CPU_ReadMem(32 bytes @ 0xE0041FE0)
+T4FE0 006:211.011   CPU_ReadMem(4 bytes @ 0xE0041FBC)
+T4FE0 006:211.360   CPU_ReadMem(4 bytes @ 0xE0041FCC)
+T4FE0 006:211.733   [1][5]: E0041000 CID B105900D PID 002BBD21 DEVARCH 47724A13 DEVTYPE 13 ETM
+T4FE0 006:211.787   CPU_ReadMem(32 bytes @ 0xE0042FE0)
+T4FE0 006:212.235   CPU_ReadMem(4 bytes @ 0xE0042FBC)
+T4FE0 006:212.564   CPU_ReadMem(4 bytes @ 0xE0042FCC)
+T4FE0 006:212.901   [1][6]: E0042000 CID B105900D PID 000BBD21 DEVARCH 47701A14 DEVTYPE 14 CSS600-CTI
+T4FE0 006:212.972 - 57.085ms returns 0x00
+T4FE0 006:213.089 JLINK_ResetPullsRESET(ON)
+T4FE0 006:213.130 - 0.052ms
+T4FE0 006:213.154 JLINK_Halt()
+T4FE0 006:216.994 - 3.912ms returns 0x00
+T4FE0 006:217.100 JLINK_IsHalted()
+T4FE0 006:217.499 - 0.433ms returns TRUE
+T4FE0 006:217.551 JLINK_Reset()
+T4FE0 006:217.875   CPU_WriteMem(4 bytes @ 0xE000EDF0)
+T4FE0 006:218.369   CPU_ReadMem(4 bytes @ 0xE000ED44)
+T4FE0 006:218.788   CPU_ReadMem(4 bytes @ 0xE000EE08)
+T4FE0 006:219.242   CPU_WriteMem(4 bytes @ 0xE000EE08)
+T4FE0 006:219.688   Reset: ARMv8M core with Security Extension enabled detected.
+T4FE0 006:219.744   CPU_WriteMem(4 bytes @ 0xE000EDFC)
+T4FE0 006:220.172   Reset: Halt core after reset via DEMCR.VC_CORERESET.
+T4FE0 006:220.662   Reset: Reset device via AIRCR.SYSRESETREQ.
+T4FE0 006:220.712   CPU_WriteMem(4 bytes @ 0xE000ED0C)
+T4FE0 006:275.112   CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T4FE0 006:275.785   CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T4FE0 006:276.444   CPU_WriteMem(4 bytes @ 0xE000EDFC)
+T4FE0 006:283.086   CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T4FE0 006:287.924   CPU_ReadMem(4 bytes @ 0xE000EE08)
+T4FE0 006:288.920   CPU_WriteMem(4 bytes @ 0xE0002000)
+T4FE0 006:289.963   CPU_ReadMem(4 bytes @ 0xE000EDFC)
+T4FE0 006:290.946   CPU_ReadMem(4 bytes @ 0xE0001000)
+T4FE0 006:291.956   CPU_ReadMem(4 bytes @ 0xE000EE08)
+T4FE0 006:292.949 - 75.518ms
+T4FE0 006:293.131 JLINK_SetEndian(ARM_ENDIAN_LITTLE)
+T4FE0 006:293.188 - 0.087ms returns 0
+T4FE0 006:293.382 JLINK_ReadMem(0xE000EDF0, 0x4 Bytes, ...)
+T4FE0 006:293.509   CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T4FE0 006:294.129   Data:  03 00 13 00
+T4FE0 006:294.281   Debug reg: DHCSR
+T4FE0 006:294.359 - 1.002ms returns 0
+T4FE0 006:294.496 JLINK_ReadMem(0x010080F0, 0x10 Bytes, ...)
+T4FE0 006:294.582   CPU_ReadMem(16 bytes @ 0x010080F0)
+T4FE0 006:295.450   Data:  52 37 46 41 36 54 32 42 44 33 43 46 50 20 20 20
+T4FE0 006:295.610 - 1.139ms returns 0
+T4FE0 006:295.691 JLINK_IsHalted()
+T4FE0 006:295.754 - 0.091ms returns TRUE
+T4FE0 006:296.751 JLINK_ReadMem(0xE000EDF0, 0x4 Bytes, ...)
+T4FE0 006:296.864   CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T4FE0 006:297.788   Data:  03 00 13 00
+T4FE0 006:297.964   Debug reg: DHCSR
+T4FE0 006:298.031 - 1.303ms returns 0
+T4FE0 006:298.095 JLINK_ReadMem(0x400E002C, 0x4 Bytes, ...)
+T4FE0 006:298.174   CPU_ReadMem(4 bytes @ 0x400E002C)
+T4FE0 006:298.795   Data:  01 00 00 00
+T4FE0 006:298.955 - 0.884ms returns 0
+T4FE0 006:299.032 JLINK_ReadMem(0xE000EDF0, 0x4 Bytes, ...)
+T4FE0 006:299.112   CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T4FE0 006:300.065   Data:  03 00 13 00
+T4FE0 006:300.229   Debug reg: DHCSR
+T4FE0 006:300.300 - 1.290ms returns 0
+T4FE0 006:300.362 JLINK_ReadMem(0x400E002C, 0x4 Bytes, ...)
+T4FE0 006:300.439   CPU_ReadMem(4 bytes @ 0x400E002C)
+T4FE0 006:301.019   Data:  01 00 00 00
+T4FE0 006:301.075 - 0.727ms returns 0
+T4FE0 006:301.107 JLINK_MeasureCPUSpeed(RAMAddr = 0xFFFFFFFF)
+T4FE0 006:301.133   CPU_ReadMem(16 bytes @ 0x2000D000)
+T4FE0 006:301.635   CPU_ReadMem(4 bytes @ 0xE000EDFC)
+T4FE0 006:302.143   CPU_ReadMem(4 bytes @ 0xE0001000)
+T4FE0 006:302.531   CPU_ReadMem(64 bytes @ 0x2000D000)
+T4FE0 006:303.305    -- Updating C cache (64 bytes @ 0x2000D000)
+T4FE0 006:303.361    -- Read from C cache (6 bytes @ 0x2000D000)
+T4FE0 006:303.397   CPU_ReadMem(4 bytes @ 0xE000ED90)
+T4FE0 006:303.830   CPU_ReadMem(4 bytes @ 0xE000ED94)
+T4FE0 006:304.314   CPU_WriteMem(16 bytes @ 0x2000D000)
+T4FE0 006:305.020   CPU_WriteMem(6 bytes @ 0x2000D000)
+T4FE0 006:305.625   CPU_ReadMem(64 bytes @ 0x2000D000)
+T4FE0 006:306.416    -- Updating C cache (64 bytes @ 0x2000D000)
+T4FE0 006:306.470    -- Read from C cache (6 bytes @ 0x2000D000)
+T4FE0 006:306.504   CPU_ReadMem(4 bytes @ 0xE000EE08)
+T4FE0 006:306.951   CPU_WriteMem(4 bytes @ 0xE0002008)
+T4FE0 006:307.003   CPU_WriteMem(4 bytes @ 0xE000200C)
+T4FE0 006:307.038   CPU_WriteMem(4 bytes @ 0xE0002010)
+T4FE0 006:307.069   CPU_WriteMem(4 bytes @ 0xE0002014)
+T4FE0 006:307.102   CPU_WriteMem(4 bytes @ 0xE0002018)
+T4FE0 006:307.146   CPU_WriteMem(4 bytes @ 0xE000201C)
+T4FE0 006:307.177   CPU_WriteMem(4 bytes @ 0xE0002020)
+T4FE0 006:307.214   CPU_WriteMem(4 bytes @ 0xE0002024)
+T4FE0 006:309.167   CPU_WriteMem(4 bytes @ 0xE0001004)
+T4FE0 006:316.408   CPU_ReadMem(4 bytes @ 0xE0001004)
+T4FE0 006:316.875   CPU_ReadMem(4 bytes @ 0xE000EE08)
+T4FE0 006:317.271   CPU_WriteMem(4 bytes @ 0xE0002008)
+T4FE0 006:317.723   CPU_WriteMem(4 bytes @ 0xE000200C)
+T4FE0 006:318.160   CPU_WriteMem(4 bytes @ 0xE0002010)
+T4FE0 006:318.557   CPU_WriteMem(4 bytes @ 0xE0002014)
+T4FE0 006:318.991   CPU_WriteMem(4 bytes @ 0xE0002018)
+T4FE0 006:319.387   CPU_WriteMem(4 bytes @ 0xE000201C)
+T4FE0 006:319.815   CPU_WriteMem(4 bytes @ 0xE0002020)
+T4FE0 006:320.218   CPU_WriteMem(4 bytes @ 0xE0002024)
+T4FE0 006:320.616   CPU_ReadMem(4 bytes @ 0xE000EE08)
+T4FE0 006:320.995   CPU_ReadMem(4 bytes @ 0xE000EE08)
+T4FE0 006:321.367   CPU_WriteMem(4 bytes @ 0xE0001004)
+T4FE0 006:348.511   CPU_ReadMem(4 bytes @ 0xE0001004)
+T4FE0 006:349.068   CPU_WriteMem(6 bytes @ 0x2000D000)
+T4FE0 006:349.626   ClockFreq: 2090700 Hz
+T4FE0 006:349.675 - 48.578ms returns 2090700
+T4FE0 006:349.703 JLINK_ReadReg(XPSR)
+T4FE0 006:349.732   CPU_ReadMem(4 bytes @ 0xE000EE08)
+T4FE0 006:350.235 - 0.558ms returns 0xF9000000
+T1D24 007:139.304 JLINK_BeginDownload(Flags = 0x00000000)
+T1D24 007:139.391 - 0.101ms
+T1D24 007:158.764 JLINK_ReadMem(0xE000EDF0, 0x4 Bytes, ...)
+T1D24 007:158.920   CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T1D24 007:159.347   Data:  03 00 13 00
+T1D24 007:159.427   Debug reg: DHCSR
+T1D24 007:159.475 - 0.732ms returns 0
+T1D24 007:161.088 JLINK_WriteMem(0x00000000, 0xBB0 Bytes, ...)
+T1D24 007:161.219   Data:  80 72 00 20 B9 6C 00 00 E5 6A 00 00 B5 6C 00 00 ...
+T1D24 007:161.914   completely In flash
+T1D24 007:162.056 - 0.989ms returns 0xBB0
+T1D24 007:163.046 JLINK_WriteMem(0x00000BB0, 0xBA0 Bytes, ...)
+T1D24 007:163.468   Data:  7C DC 1A 7A 9F ED 47 6A 07 EE 10 2A 5A 7A B8 EE ...
+T1D24 007:163.552   completely In flash
+T1D24 007:163.611 - 0.585ms returns 0xBA0
+T1D24 007:164.171 JLINK_WriteMem(0x00001750, 0xBB0 Bytes, ...)
+T1D24 007:164.269   Data:  0C 7A 93 ED 0D 4A 93 ED 00 3A D3 ED 01 3A D3 ED ...
+T1D24 007:164.337   completely In flash
+T1D24 007:164.380 - 0.221ms returns 0xBB0
+T1D24 007:164.738 JLINK_WriteMem(0x00002300, 0xBB0 Bytes, ...)
+T1D24 007:164.811   Data:  51 63 51 6B 6F F3 18 61 51 63 B5 F8 A2 20 42 F4 ...
+T1D24 007:164.883   completely In flash
+T1D24 007:164.947 - 0.226ms returns 0xBB0
+T1D24 007:165.342 JLINK_WriteMem(0x00002EB0, 0xBC0 Bytes, ...)
+T1D24 007:165.424   Data:  A2 65 23 66 C8 47 03 22 3F 4B 40 49 D8 6A 68 F3 ...
+T1D24 007:165.482   completely In flash
+T1D24 007:165.539 - 0.213ms returns 0xBC0
+T1D24 007:165.921 JLINK_WriteMem(0x00003A70, 0xBA0 Bytes, ...)
+T1D24 007:166.013   Data:  02 AD C6 B1 96 E8 0F 00 85 E8 0F 00 E3 69 01 22 ...
+T1D24 007:166.070   completely In flash
+T1D24 007:166.130 - 0.225ms returns 0xBA0
+T1D24 007:166.499 JLINK_WriteMem(0x00004610, 0xBB0 Bytes, ...)
+T1D24 007:166.563   Data:  BA 42 80 F0 EA 80 4F F0 01 09 4F F0 03 08 01 3A ...
+T1D24 007:166.618   completely In flash
+T1D24 007:166.673 - 0.196ms returns 0xBB0
+T1D24 007:167.063 JLINK_WriteMem(0x000051C0, 0xBB0 Bytes, ...)
+T1D24 007:167.134   Data:  F0 BC 0C F1 80 43 03 F5 30 23 5B 68 03 F0 07 03 ...
+T1D24 007:167.184   completely In flash
+T1D24 007:167.241 - 0.196ms returns 0xBB0
+T1D24 007:167.638 JLINK_WriteMem(0x00005D70, 0xBC0 Bytes, ...)
+T1D24 007:167.698   Data:  F0 B5 85 B0 EF F3 03 83 10 3B 1E 4A 5B B2 03 F1 ...
+T1D24 007:167.788   completely In flash
+T1D24 007:167.846 - 0.223ms returns 0xBC0
+T1D24 007:168.130 JLINK_WriteMem(0x00006930, 0xBC0 Bytes, ...)
+T1D24 007:168.190   Data:  49 4B 43 4E 49 4C 86 F8 1C C1 81 F8 26 50 0B 62 ...
+T1D24 007:168.228   completely In flash
+T1D24 007:168.260 - 0.140ms returns 0xBC0
+T1D24 007:168.513 JLINK_WriteMem(0x000074F0, 0xBB0 Bytes, ...)
+T1D24 007:168.549   Data:  17 EE 10 0A 13 70 C7 EE 88 9A 98 46 00 F0 98 F9 ...
+T1D24 007:168.607   completely In flash
+T1D24 007:168.649 - 0.151ms returns 0xBB0
+T1D24 007:168.930 JLINK_WriteMem(0x000080A0, 0xBB0 Bytes, ...)
+T1D24 007:168.989   Data:  33 68 02 33 33 60 25 68 15 F0 06 05 06 D1 04 F1 ...
+T1D24 007:169.046   completely In flash
+T1D24 007:169.094 - 0.180ms returns 0xBB0
+T1D24 007:169.374 JLINK_WriteMem(0x00008C50, 0xBC0 Bytes, ...)
+T1D24 007:169.415   Data:  25 FF 01 22 29 46 20 46 00 F0 20 FB 01 9B B8 46 ...
+T1D24 007:169.467   completely In flash
+T1D24 007:169.504 - 0.141ms returns 0xBC0
+T1D24 007:169.775 JLINK_WriteMem(0x00009810, 0xBF0 Bytes, ...)
+T1D24 007:169.842   Data:  06 F0 00 46 46 EA 01 01 40 EA 02 00 81 EA 03 01 ...
+T1D24 007:169.905   completely In flash
+T1D24 007:169.964 - 0.206ms returns 0xBF0
+T1D24 007:170.187 JLINK_WriteMem(0x0000A400, 0x7AC Bytes, ...)
+T1D24 007:170.227   Data:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ...
+T1D24 007:170.265   completely In flash
+T1D24 007:170.298 - 0.120ms returns 0x7AC
+T1D24 007:170.659 JLINK_WriteMem(0x0000ABAC, 0x774 Bytes, ...)
+T1D24 007:170.781   Data:  01 00 00 00 55 F1 00 00 46 00 00 00 55 F0 00 00 ...
+T1D24 007:170.834   completely In flash
+T1D24 007:170.885 - 0.244ms returns 0x774
+T1D24 007:171.629 JLINK_WriteMem(0x0100A100, 0x38 Bytes, ...)
+T1D24 007:171.724   Data:  FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF ...
+T1D24 007:172.437   completely In flash
+T1D24 007:172.575 - 0.960ms returns 0x38
+T1D24 007:173.608 JLINK_WriteMem(0x0100A200, 0xCC Bytes, ...)
+T1D24 007:173.704   Data:  FF FD F0 FF FF FF FF FF FF FF FF FF FF FF FF FF ...
+T1D24 007:173.772   completely In flash
+T1D24 007:173.834 - 0.244ms returns 0xCC
+T1D24 007:201.380 JLINK_EndDownload()
+T1D24 007:201.851   CPU_ReadMem(4 bytes @ 0xE000ED90)
+T1D24 007:202.281   CPU_ReadMem(4 bytes @ 0xE000ED94)
+T1D24 007:203.306    -- --------------------------------------
+T1D24 007:203.482    -- Flash bank @ 0x0100A100: Default: L2 verify disabled because algorithm performs L1 verify
+T1D24 007:203.545    -- Start of determining dirty areas in flash cache
+T1D24 007:203.597    -- Filling invalid ranges in sector buffer (flash cache) for sector @ 0x0100A100 if necessary
+T1D24 007:203.649    -- Filling invalid ranges in sector buffer (flash cache) for sector @ 0x0100A110 if necessary
+T1D24 007:203.695    -- Filling invalid ranges in sector buffer (flash cache) for sector @ 0x0100A120 if necessary
+T1D24 007:203.751    -- Filling invalid ranges in sector buffer (flash cache) for sector @ 0x0100A130 if necessary
+T1D24 007:203.803    -- Filling invalid ranges in sector buffer (flash cache) for sector @ 0x0100A200 if necessary
+T1D24 007:203.852    -- Filling invalid ranges in sector buffer (flash cache) for sector @ 0x0100A210 if necessary
+T1D24 007:203.905    -- Filling invalid ranges in sector buffer (flash cache) for sector @ 0x0100A220 if necessary
+T1D24 007:203.952    -- Filling invalid ranges in sector buffer (flash cache) for sector @ 0x0100A230 if necessary
+T1D24 007:204.006    -- Filling invalid ranges in sector buffer (flash cache) for sector @ 0x0100A240 if necessary
+T1D24 007:204.053    -- Filling invalid ranges in sector buffer (flash cache) for sector @ 0x0100A250 if necessary
+T1D24 007:204.100    -- Filling invalid ranges in sector buffer (flash cache) for sector @ 0x0100A260 if necessary
+T1D24 007:204.158    -- Filling invalid ranges in sector buffer (flash cache) for sector @ 0x0100A270 if necessary
+T1D24 007:204.212    -- Filling invalid ranges in sector buffer (flash cache) for sector @ 0x0100A280 if necessary
+T1D24 007:204.265    -- Filling invalid ranges in sector buffer (flash cache) for sector @ 0x0100A290 if necessary
+T1D24 007:204.313    -- Filling invalid ranges in sector buffer (flash cache) for sector @ 0x0100A2A0 if necessary
+T1D24 007:204.365    -- Filling invalid ranges in sector buffer (flash cache) for sector @ 0x0100A2B0 if necessary
+T1D24 007:204.416    -- Filling invalid ranges in sector buffer (flash cache) for sector @ 0x0100A2C0 if necessary
+T1D24 007:204.465    -- End of determining dirty areas
+T1D24 007:204.515    -- Start of preparing flash programming
+T1D24 007:204.703    -- Calculating RAM usage
+T1D24 007:212.135    -- RAM usage = 3476 Bytes
+T1D24 007:212.233    -- Preserving CPU registers
+T1D24 007:222.445    -- Determining CPU clock frequency
+T1D24 007:262.617    -- Preparing target
+T1D24 007:262.697    -- Preserving target RAM temporarily used for programming
+T1D24 007:275.856    -- Downloading RAMCode
+T1D24 007:291.842    -- Preparing RAMCode
+T1D24 007:301.378    -- CPU frequency = 100000 kHz
+T1D24 007:301.452    -- End of preparing flash programming
+T1D24 007:301.782    -- CPU is running at 100000 kHz.
+T1D24 007:301.838    -- Start of comparing flash
+T1D24 007:301.870    -- CRC check was estimated as fastest method
+T1D24 007:301.905    -- Comparing range 0x100A100 - 0x100A13F (4 Sectors, 64 Bytes), using multi-block CRC calculation
+T1D24 007:303.503    -- All CRCs match
+T1D24 007:303.580    -- Comparing range 0x100A200 - 0x100A2CF (13 Sectors, 208 Bytes), using multi-block CRC calculation
+T1D24 007:305.743    -- All CRCs match
+T1D24 007:305.849    -- Comparing range 0x100A100 - 0x100A13F (4 Sectors, 64 Bytes), using alternative multi-block CRC calculation
+T1D24 007:307.437    -- All CRCs match
+T1D24 007:307.534    -- Comparing range 0x100A200 - 0x100A2CF (13 Sectors, 208 Bytes), using alternative multi-block CRC calculation
+T1D24 007:309.805    -- All CRCs match
+T1D24 007:309.880    -- End of comparing flash
+T1D24 007:309.918    -- Start of erasing sectors
+T1D24 007:309.950    -- End of erasing sectors
+T1D24 007:309.979    -- Start of flash programming
+T1D24 007:310.013    -- End of flash programming
+T1D24 007:310.046    -- Start of restoring
+T1D24 007:310.076    -- Restoring RAMCode
+T1D24 007:314.274    -- Restoring target memory
+T1D24 007:327.001    -- Restore target
+T1D24 007:327.273    -- Restoring CPU registers
+T1D24 007:327.939    -- End of restoring
+T1D24 007:327.989    -- Bank 0 @ 0x0100A100: Skipped. Contents already match
+T1D24 007:328.018    -- Bank 0 @ 0x0100A100: Skipped. Contents already match
+T1D24 007:328.051    -- --------------------------------------
+T1D24 007:328.082    -- Flash bank @ 0x00000000: Default: L2 verify disabled because algorithm performs L1 verify
+T1D24 007:328.110    -- Start of determining dirty areas in flash cache
+T1D24 007:328.145    -- Filling invalid ranges in sector buffer (flash cache) for sector @ 0x00000000 if necessary
+T1D24 007:328.178    -- Filling invalid ranges in sector buffer (flash cache) for sector @ 0x00002000 if necessary
+T1D24 007:328.207    -- Filling invalid ranges in sector buffer (flash cache) for sector @ 0x00004000 if necessary
+T1D24 007:328.236    -- Filling invalid ranges in sector buffer (flash cache) for sector @ 0x00006000 if necessary
+T1D24 007:328.267    -- Filling invalid ranges in sector buffer (flash cache) for sector @ 0x00008000 if necessary
+T1D24 007:328.298    -- Filling invalid ranges in sector buffer (flash cache) for sector @ 0x0000A000 if necessary
+T1D24 007:328.413    -- End of determining dirty areas
+T1D24 007:328.449    -- Start of preparing flash programming
+T1D24 007:328.480    -- Calculating RAM usage
+T1D24 007:328.528    -- RAM usage = 4500 Bytes
+T1D24 007:328.557    -- Preserving CPU registers
+T1D24 007:328.613    -- Determining CPU clock frequency
+T1D24 007:368.594    -- Preparing target
+T1D24 007:368.658    -- Preserving target RAM temporarily used for programming
+T1D24 007:385.733    -- Downloading RAMCode
+T1D24 007:402.113    -- Preparing RAMCode
+T1D24 007:412.416    -- CPU frequency = 100000 kHz
+T1D24 007:412.485    -- End of preparing flash programming
+T1D24 007:412.524    -- CPU is running at 100000 kHz.
+T1D24 007:412.558    -- Start of comparing flash
+T1D24 007:412.592    -- CRC check was estimated as fastest method
+T1D24 007:412.634    -- Comparing range 0x0000 - 0xBFFF (6 Sectors, 48 KB), using multi-block CRC calculation
+T1D24 007:416.776    -- CRC does not match for sectors 0-5
+T1D24 007:416.852    -- End of comparing flash
+T1D24 007:416.884    -- Start of erasing sectors
+T1D24 007:416.916    -- Erasing range 0x00000000 - 0x0000BFFF (  6 Sectors, 48 KB)
+T1D24 007:678.332    -- End of erasing sectors
+T1D24 007:678.412    -- Start of flash programming
+T1D24 007:678.451    -- Programming range 0x00000000 - 0x00007FFF (  4 Sectors, 32 KB)
+T1D24 007:836.439    -- Programming range 0x00008000 - 0x0000BFFF (  2 Sectors, 16 KB)
+T1D24 007:904.252    -- End of flash programming
+T1D24 007:904.470    -- 0x0000 - 0xBFFF (  6 Sectors, 48 KB)
+T1D24 007:904.576    -- Start of restoring
+T1D24 007:904.666    -- Restoring RAMCode
+T1D24 007:917.473    -- Restoring target memory
+T1D24 007:934.808    -- Restore target
+T1D24 007:935.095    -- Restoring CPU registers
+T1D24 007:936.015    -- End of restoring
+T1D24 007:936.274    -- Bank 1 @ 0x00000000: 1 range affected (49152 bytes)
+T1D24 007:936.408    -- Total: 0.607s (Prepare: 0.084s, Compare: 0.004s, Erase: 0.261s, Program & Verify: 0.233s, Restore: 0.023s)
+T1D24 007:936.530    -- Program & Verify speed: 205 KB/s
+T1D24 007:937.190 - 735.931ms returns 49152 (0xC000)
+T1D24 007:937.914 JLINK_WriteReg(R15 (PC), 0x00006CB8)
+T1D24 007:938.056 - 0.195ms returns 0
+T1D24 007:938.159 JLINK_WriteReg(XPSR, 0x01000000)
+T1D24 007:938.267 - 0.169ms returns 0
+T1D24 007:938.392 JLINK_SetEndian(ARM_ENDIAN_LITTLE)
+T1D24 007:938.471 - 0.128ms returns 0
+T1D24 007:940.353 JLINK_ResetPullsRESET(ON)
+T1D24 007:940.638 - 0.369ms
+T1D24 007:940.808 JLINK_Halt()
+T1D24 007:941.534 - 0.849ms returns 0x00
+T1D24 007:941.720 JLINK_IsHalted()
+T1D24 007:941.818 - 0.138ms returns TRUE
+T1D24 007:941.902 JLINK_Reset()
+T1D24 007:942.025   CPU_WriteMem(4 bytes @ 0xE000EDF0)
+T1D24 007:942.730   CPU_ReadMem(4 bytes @ 0xE000ED44)
+T1D24 007:943.484   CPU_ReadMem(4 bytes @ 0xE000EE08)
+T1D24 007:944.292   CPU_WriteMem(4 bytes @ 0xE000EE08)
+T1D24 007:945.152   Reset: ARMv8M core with Security Extension enabled detected.
+T1D24 007:945.393   CPU_WriteMem(4 bytes @ 0xE000EDFC)
+T1D24 007:946.183   Reset: Halt core after reset via DEMCR.VC_CORERESET.
+T1D24 007:947.280   Reset: Reset device via AIRCR.SYSRESETREQ.
+T1D24 007:947.499   CPU_WriteMem(4 bytes @ 0xE000ED0C)
+T1D24 008:001.529   CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T1D24 008:001.951   CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T1D24 008:002.433   CPU_WriteMem(4 bytes @ 0xE000EDFC)
+T1D24 008:008.787   CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T1D24 008:013.050   CPU_ReadMem(4 bytes @ 0xE000EE08)
+T1D24 008:013.642   CPU_WriteMem(4 bytes @ 0xE0002000)
+T1D24 008:014.586   CPU_ReadMem(4 bytes @ 0xE000EDFC)
+T1D24 008:015.233   CPU_ReadMem(4 bytes @ 0xE0001000)
+T1D24 008:016.026   CPU_ReadMem(4 bytes @ 0xE000EE08)
+T1D24 008:016.586 - 74.721ms
+T1D24 008:016.651 JLINK_SetEndian(ARM_ENDIAN_LITTLE)
+T1D24 008:016.676 - 0.037ms returns 0
+T1D24 008:038.745 JLINK_ReadMem(0x00006CB8, 0x4 Bytes, ...)
+T1D24 008:038.823    -- Read from flash cache (4 bytes @ 0x00006CB8)
+T1D24 008:038.858   Data:  08 B5 00 F0
+T1D24 008:038.890 - 0.156ms returns 0
+T1D24 008:273.073 JLINK_FindBP(Addr = 0x0000330C)
+T1D24 008:273.359 - 0.338ms returns 0
+T1D24 008:273.551 JLINK_GetNumBPUnits(Type = 0xFFFFFF00)
+T1D24 008:273.596 - 0.058ms returns 0x08
+T1D24 008:273.625 JLINK_GetNumWPUnits()
+T1D24 008:273.649 - 0.039ms returns 4
+T1D24 008:273.680 JLINK_GetNumWPUnits()
+T1D24 008:273.709 - 0.042ms returns 4
+T1D24 008:273.748 JLINK_GetNumBPUnits(Type = 0xFFFFFF00)
+T1D24 008:273.786 - 0.051ms returns 0x08
+T1D24 008:273.813 JLINK_GetNumWPUnits()
+T1D24 008:273.844 - 0.043ms returns 4
+T1D24 008:273.870 JLINK_GetNumWPUnits()
+T1D24 008:273.893 - 0.038ms returns 4
+T1D24 008:273.933 JLINK_GetNumBPUnits(Type = 0xFFFFFF00)
+T1D24 008:273.961 - 0.040ms returns 0x08
+T1D24 008:273.987 JLINK_GetNumWPUnits()
+T1D24 008:274.018 - 0.043ms returns 4
+T1D24 008:274.044 JLINK_GetNumWPUnits()
+T1D24 008:274.078 - 0.048ms returns 4
+T1D24 008:274.195 JLINK_SetBPEx(Addr = 0x0000330C, Type = 0xFFFFFF00)
+T1D24 008:274.241 - 0.062ms returns 0x00000001
+T1D24 008:274.277 JLINK_ClrBPEx(BPHandle = 0x00000001)
+T1D24 008:274.310 - 0.045ms returns 0x00
+T1D24 008:289.931 JLINK_SetBPEx(Addr = 0x0000330C, Type = 0xFFFFFF00)
+T1D24 008:290.007 - 0.091ms returns 0x00000002
+T1D24 008:398.834 JLINK_ReadRegs(NumRegs = 22, Indexes: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 86, 87, 20)
+T1D24 008:398.961   CPU_ReadMem(4 bytes @ 0xE000EE08)
+T1D24 008:399.456    -- R0=0x00, R1=0x00, R2=0x00, R3=0x00, R4=0x00, R5=0x00, R6=0x00, R7=0x00, R8=0x20000DF4, R9=0x8841303E, R10=0xA3401E6, R11=0x3C14637D, R12=0x2000D888, R13 (SP)=0x20007280, R14=0xFFFFFFFF, R15 (PC)=0x6CB8, XPSR=0xF9000000, MSP=0x20007280, PSP=0x00, MSPLIM=0x00, PSPLIM=0x00, CFBP=0x00
+T1D24 008:399.579 - 0.764ms returns 0x00
+T1D24 008:400.076 JLINK_ReadMem(0x00006CB8, 0x4 Bytes, ...)
+T1D24 008:400.143    -- Read from flash cache (4 bytes @ 0x00006CB8)
+T1D24 008:400.180   Data:  08 B5 00 F0
+T1D24 008:400.223 - 0.160ms returns 0
+T12D0 008:498.885 JLINK_GetNumBPUnits(Type = 0xFFFFFF00)
+T12D0 008:498.960 - 0.089ms returns 0x08
+T12D0 008:498.988 JLINK_GetNumWPUnits()
+T12D0 008:499.009 - 0.031ms returns 4
+T12D0 008:499.031 JLINK_GetNumWPUnits()
+T12D0 008:499.056 - 0.036ms returns 4
+T12D0 008:499.486 JLINK_GetNumBPUnits(Type = 0xFFFFFF00)
+T12D0 008:499.533 - 0.057ms returns 0x08
+T12D0 008:499.556 JLINK_GetNumWPUnits()
+T12D0 008:499.580 - 0.039ms returns 4
+T12D0 008:499.606 JLINK_GetNumWPUnits()
+T12D0 008:499.628 - 0.034ms returns 4
+T12D0 008:499.971 JLINK_GetNumBPUnits(Type = 0xFFFFFF00)
+T12D0 008:500.020 - 0.059ms returns 0x08
+T12D0 008:500.045 JLINK_GetNumWPUnits()
+T12D0 008:500.070 - 0.035ms returns 4
+T12D0 008:500.091 JLINK_GetNumWPUnits()
+T12D0 008:500.117 - 0.036ms returns 4
+T12D0 008:500.447 JLINK_GetNumBPUnits(Type = 0xFFFFFF00)
+T12D0 008:500.490 - 0.054ms returns 0x08
+T12D0 008:500.513 JLINK_GetNumWPUnits()
+T12D0 008:500.533 - 0.030ms returns 4
+T12D0 008:500.558 JLINK_GetNumWPUnits()
+T12D0 008:500.581 - 0.034ms returns 4
+T12D0 008:500.841 JLINK_GetNumBPUnits(Type = 0xFFFFFF00)
+T12D0 008:500.879 - 0.049ms returns 0x08
+T12D0 008:500.902 JLINK_GetNumWPUnits()
+T12D0 008:500.927 - 0.036ms returns 4
+T12D0 008:500.950 JLINK_GetNumWPUnits()
+T12D0 008:500.971 - 0.034ms returns 4
+T12D0 008:501.258 JLINK_GetNumBPUnits(Type = 0xFFFFFF00)
+T12D0 008:501.299 - 0.051ms returns 0x08
+T12D0 008:501.321 JLINK_GetNumWPUnits()
+T12D0 008:501.346 - 0.037ms returns 4
+T12D0 008:501.370 JLINK_GetNumWPUnits()
+T12D0 008:501.393 - 0.033ms returns 4
+T12D0 008:501.669 JLINK_GetNumBPUnits(Type = 0xFFFFFF00)
+T12D0 008:501.706 - 0.047ms returns 0x08
+T12D0 008:501.730 JLINK_GetNumWPUnits()
+T12D0 008:501.756 - 0.038ms returns 4
+T12D0 008:501.781 JLINK_GetNumWPUnits()
+T12D0 008:501.808 - 0.037ms returns 4
+T12D0 008:502.109 JLINK_GetNumBPUnits(Type = 0xFFFFFF00)
+T12D0 008:502.152 - 0.054ms returns 0x08
+T12D0 008:502.188 JLINK_GetNumWPUnits()
+T12D0 008:502.210 - 0.032ms returns 4
+T12D0 008:502.234 JLINK_GetNumWPUnits()
+T12D0 008:502.256 - 0.033ms returns 4
+T4FE0 023:360.789 JLINK_ClrBPEx(BPHandle = 0x00000002)
+T4FE0 023:361.494 - 0.791ms returns 0x00
+T4FE0 023:361.675 JLINK_Halt()
+T4FE0 023:361.759 - 0.114ms returns 0x00
+T4FE0 023:361.825 JLINK_ReadReg(XPSR)
+T4FE0 023:361.909 - 0.126ms returns 0xF9000000
+T4FE0 023:371.942 JLINK_Close()
+T4FE0 023:372.540   CPU_WriteMem(4 bytes @ 0xE0002008)
+T4FE0 023:372.715   CPU_WriteMem(4 bytes @ 0xE000200C)
+T4FE0 023:372.835   CPU_WriteMem(4 bytes @ 0xE0002010)
+T4FE0 023:372.943   CPU_WriteMem(4 bytes @ 0xE0002014)
+T4FE0 023:373.066   CPU_WriteMem(4 bytes @ 0xE0002018)
+T4FE0 023:373.183   CPU_WriteMem(4 bytes @ 0xE000201C)
+T4FE0 023:373.312   CPU_WriteMem(4 bytes @ 0xE0002020)
+T4FE0 023:373.428   CPU_WriteMem(4 bytes @ 0xE0002024)
+T4FE0 023:381.221 - 9.360ms
+T4FE0 023:381.325   
+T4FE0 023:381.365   Closed
