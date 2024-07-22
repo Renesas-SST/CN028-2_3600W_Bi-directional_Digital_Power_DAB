@@ -1,4 +1,4 @@
-# CN028-2 Digital Power DAB
+# CN028-2 3600W Bi-Directional Digital Power DAB
 
 # Description
 3600W bi-directional isolated DC/DC power supply based on digital control, employing a Dual Active Bridge (DAB) topology and advanced Triple Phase Shift (TPS) control algorithm, with soft switching across the entire voltage range and optimized modulation for minimum reverse power flow.
